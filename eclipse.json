@@ -1,0 +1,430 @@
+{
+    "light":
+    [
+        {
+            "comments":
+            [
+                {
+                    "element": "Comments",
+                    "color": "#3F7F5F",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Task Tags",
+                    "color": "#7F9FBF",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                }
+            ],
+            "java":
+            [
+                {
+                    "element": "Annotations",
+                    "color": "#646464",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Brackets",
+                    "color": "#000000",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Deprecated members",
+                    "color": "#000000",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": true,
+                    "underline": false
+                },
+                {
+                    "element": "Fields",
+                    "color": "#0000C0",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Keywords",
+                    "color": "#7F0055",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Local variables",
+                    "color": "#6A3E3E",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Operators",
+                    "color": "#000000",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Others",
+                    "color": "#000000",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Static fields",
+                    "color": "#0000C0",
+                    "bold": false,
+                    "italic": true,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Static final fields",
+                    "color": "#0000C0",
+                    "bold": true,
+                    "italic": true,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Static method invocations",
+                    "color": "#000000",
+                    "bold": false,
+                    "italic": true,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Strings",
+                    "color": "#2A00FF",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                }
+            ],
+            "javadoc":
+            [
+                {
+                    "element": "HTML markup",
+                    "color": "#7F7F9F",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Links",
+                    "color": "#3F3FBF",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Others",
+                    "color": "#3F5FBF",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Tags",
+                    "color": "#7F9FBF",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                }
+            ]
+        }
+    ],
+    "dark":
+    [
+        {
+            "comments":
+            [
+                {
+                    "element": "Comments",
+                    "color": "#626262",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Task Tags",
+                    "color": "#9A8C7C",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                }
+            ],
+            "java":
+            [
+                {
+                    "element": "Abstract classes",
+                    "color": "#3EABE6",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Abstract method invocations",
+                    "color": "#80F6A7",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Annotation element references",
+                    "color": "#EB4B64",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Annotations",
+                    "color": "#FF9393",
+                    "bold": true,
+                    "italic": true,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Brackets",
+                    "color": "#F9FAF4",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Classes",
+                    "color": "#1290C3",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Deprecated members",
+                    "color": "#AB1F36",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": true,
+                    "underline": false
+                },
+                {
+                    "element": "Enums",
+                    "color": "#CC81BA",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Fields",
+                    "color": "#66E1F8",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Inherited method invocations",
+                    "color": "#CDF668",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Interfaces",
+                    "color": "#80F2F6",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Keywords",
+                    "color": "#DD2867",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Local variable declarations",
+                    "color": "#ED7F48",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Local variables",
+                    "color": "#FFBF26",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Method declarations",
+                    "color": "#1EB540",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Methods",
+                    "color": "#A7EC21",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Numbers",
+                    "color": "#6897BB",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Operators",
+                    "color": "#E6E6FA",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Others",
+                    "color": "#D9E8F7",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Parameter variables",
+                    "color": "#79ABFF",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Static fields",
+                    "color": "#8DDAF8",
+                    "bold": false,
+                    "italic": true,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Static final fields",
+                    "color": "#8DDAF8",
+                    "bold": true,
+                    "italic": true,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Static method invocations",
+                    "color": "#96EC3F",
+                    "bold": false,
+                    "italic": true,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Strings",
+                    "color": "#17C6A3",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Type arguments",
+                    "color": "#D7837F",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Type variables",
+                    "color": "#BFA4A4",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                }
+            ],
+            "javadoc":
+            [
+                {
+                    "element": "HTML markup",
+                    "color": "#1E789B",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Links",
+                    "color": "#A99C8C",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Others",
+                    "color": "#626262",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Tags",
+                    "color": "#9A8C7C",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                }
+            ]
+        }
+    ]
+}
