@@ -2,6 +2,17 @@
     "light":
     [
         {
+            "text":
+            [
+                {
+                    "element": "Foreground",
+                    "color": "#000000"
+                },
+                {
+                    "element": "Background",
+                    "color": "#FFFFFF"
+                }
+            ],
             "comments":
             [
                 {
@@ -160,6 +171,17 @@
     "dark":
     [
         {
+            "text":
+            [
+                {
+                    "element": "Foreground",
+                    "color": "#D9E8F7"
+                },
+                {
+                    "element": "Background",
+                    "color": "#292929"
+                }
+            ],
             "comments":
             [
                 {
