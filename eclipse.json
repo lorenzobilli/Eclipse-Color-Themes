@@ -21,17 +21,6 @@
                     "underline": false
                 }
             ],
-            "text":
-            [
-                {
-                    "element": "Foreground",
-                    "color": "#000000"
-                },
-                {
-                    "element": "Background",
-                    "color": "#FFFFFF"
-                }
-            ],
             "c/c++":
             [
                 {
@@ -171,25 +160,6 @@
                     "underline": false
                 }
             ],
-            "comments":
-            [
-                {
-                    "element": "Comments",
-                    "color": "#3F7F5F",
-                    "bold": false,
-                    "italic": false,
-                    "strikethrough": false,
-                    "underline": false
-                },
-                {
-                    "element": "Task Tags",
-                    "color": "#7F9FBF",
-                    "bold": true,
-                    "italic": false,
-                    "strikethrough": false,
-                    "underline": false
-                }
-            ],
             "doxygen":
             [
                 {
@@ -222,6 +192,14 @@
                 {
                     "element": "Brackets",
                     "color": "#000000",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Comments",
+                    "color": "#3F7F5F",
                     "bold": false,
                     "italic": false,
                     "strikethrough": false,
@@ -303,6 +281,14 @@
                     "element": "Strings",
                     "color": "#2A00FF",
                     "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Task Tags",
+                    "color": "#7F9FBF",
+                    "bold": true,
                     "italic": false,
                     "strikethrough": false,
                     "underline": false
@@ -666,6 +652,17 @@
                     "strikethrough": false,
                     "underline": false
                 }
+            ],
+            "text":
+            [
+                {
+                    "element": "Foreground",
+                    "color": "#000000"
+                },
+                {
+                    "element": "Background",
+                    "color": "#FFFFFF"
+                }
             ]
         }
     ],
@@ -689,17 +686,6 @@
                     "italic": false,
                     "strikethrough": false,
                     "underline": false
-                }
-            ],
-            "text":
-            [
-                {
-                    "element": "Foreground",
-                    "color": "#D9E8F7"
-                },
-                {
-                    "element": "Background",
-                    "color": "#292929"
                 }
             ],
             "c/c++":
@@ -905,25 +891,6 @@
                     "underline": false
                 }
             ],
-            "comments":
-            [
-                {
-                    "element": "Comments",
-                    "color": "#626262",
-                    "bold": false,
-                    "italic": false,
-                    "strikethrough": false,
-                    "underline": false
-                },
-                {
-                    "element": "Task Tags",
-                    "color": "#9A8C7C",
-                    "bold": true,
-                    "italic": false,
-                    "strikethrough": false,
-                    "underline": false
-                }
-            ],
             "doxygen":
             [
                 {
@@ -989,6 +956,14 @@
                     "element": "Classes",
                     "color": "#1290C3",
                     "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Comments",
+                    "color": "#626262",
+                    "bold": false,
                     "italic": false,
                     "strikethrough": false,
                     "underline": false
@@ -1133,6 +1108,14 @@
                     "element": "Strings",
                     "color": "#17C6A3",
                     "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Task Tags",
+                    "color": "#9A8C7C",
+                    "bold": true,
                     "italic": false,
                     "strikethrough": false,
                     "underline": false
@@ -1535,6 +1518,17 @@
                     "italic": false,
                     "strikethrough": false,
                     "underline": false
+                }
+            ],
+            "text":
+            [
+                {
+                    "element": "Foreground",
+                    "color": "#D9E8F7"
+                },
+                {
+                    "element": "Background",
+                    "color": "#292929"
                 }
             ]
         }
