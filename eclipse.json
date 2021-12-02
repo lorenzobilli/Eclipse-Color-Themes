@@ -263,7 +263,7 @@
                     "element": "Enums",
                     "color": "#CC81BA",
                     "bold": false,
-                    "italic": false,
+                    "italic": true,
                     "strikethrough": false,
                     "underline": false
                 },
