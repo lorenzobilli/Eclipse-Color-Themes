@@ -2,6 +2,25 @@
     "light":
     [
         {
+            "assembly":
+            [
+                {
+                    "element": "Directives",
+                    "color": "#7F0055",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Labels",
+                    "color": "#7F0055",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                }
+            ],
             "text":
             [
                 {
@@ -11,6 +30,145 @@
                 {
                     "element": "Background",
                     "color": "#FFFFFF"
+                }
+            ],
+            "c/c++":
+            [
+                {
+                    "element": "Braces",
+                    "color": "#000000",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Built-in types",
+                    "color": "#7F0055",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Classes, Structs, Unions",
+                    "color": "#005032",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Enumerators",
+                    "color": "#0000C0",
+                    "bold": false,
+                    "italic": true,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "External SDK calls",
+                    "color": "#642880",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Fields",
+                    "color": "#0000C0",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Function declarations",
+                    "color": "#000000",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Keywords",
+                    "color": "#7F0055",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Method declarations",
+                    "color": "#000000",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Numbers",
+                    "color": "#000000",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Operators",
+                    "color": "#000000",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Others",
+                    "color": "#000000",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Static fields",
+                    "color": "#0000C0",
+                    "bold": false,
+                    "italic": true,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Static method invocations",
+                    "color": "#000000",
+                    "bold": false,
+                    "italic": true,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Strings",
+                    "color": "#2A00FF",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Template parameters",
+                    "color": "#644632",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Typedefs",
+                    "color": "#005032",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
                 }
             ],
             "comments":
@@ -27,6 +185,25 @@
                     "element": "Task Tags",
                     "color": "#7F9FBF",
                     "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                }
+            ],
+            "doxygen":
+            [
+                {
+                    "element": "Comment",
+                    "color": "#3F5FBF",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Tag",
+                    "color": "#7F9FBF",
+                    "bold": false,
                     "italic": false,
                     "strikethrough": false,
                     "underline": false
@@ -165,12 +342,58 @@
                     "strikethrough": false,
                     "underline": false
                 }
+            ],
+            "preprocessor":
+            [
+                {
+                    "element": "Directives",
+                    "color": "#7F0055",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Headers",
+                    "color": "#2A00FF",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Others",
+                    "color": "#000000",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                }
             ]
         }
     ],
     "dark":
     [
         {
+            "assembly":
+            [
+                {
+                    "element": "Directives",
+                    "color": "#DD2867",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Labels",
+                    "color": "#D9E8F7",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                }
+            ],
             "text":
             [
                 {
@@ -180,6 +403,209 @@
                 {
                     "element": "Background",
                     "color": "#292929"
+                }
+            ],
+            "c/c++":
+            [
+                {
+                    "element": "Braces",
+                    "color": "#F9FAF4",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Built-in types",
+                    "color": "#DD2867",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Classes, Structs, Unions",
+                    "color": "#1290C3",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Enumerators",
+                    "color": "#8DDAF8",
+                    "bold": false,
+                    "italic": true,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Enums",
+                    "color": "#CC81BA",
+                    "bold": false,
+                    "italic": true,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "External SDK calls",
+                    "color": "#96EC3F",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Fields",
+                    "color": "#66E1F8",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Function declarations",
+                    "color": "#0DD140",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Functions",
+                    "color": "#A7EC21",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Keywords",
+                    "color": "#DD2867",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Local variable declarations",
+                    "color": "#ED7F48",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Local variable references",
+                    "color": "#FFBF26",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Macro definitions",
+                    "color": "#0DD140",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Method declarations",
+                    "color": "#0DD140",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Methods",
+                    "color": "#A7EC21",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Namespaces",
+                    "color": "#80F2F6",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Numbers",
+                    "color": "#6897BB",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Operators",
+                    "color": "#E6E6FA",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Others",
+                    "color": "#D9E8F7",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Parameter variables",
+                    "color": "#79ABFF",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Static fields",
+                    "color": "#8DDAF8",
+                    "bold": false,
+                    "italic": true,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Static method invocations",
+                    "color": "#96EC3F",
+                    "bold": false,
+                    "italic": true,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Strings",
+                    "color": "#17C6A3",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Template parameters",
+                    "color": "#644632",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Typedefs",
+                    "color": "#1290C3",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
                 }
             ],
             "comments":
@@ -196,6 +622,25 @@
                     "element": "Task Tags",
                     "color": "#9A8C7C",
                     "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                }
+            ],
+            "doxygen":
+            [
+                {
+                    "element": "Comment",
+                    "color": "#3F5FBF",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Tag",
+                    "color": "#7F9FBF",
+                    "bold": false,
                     "italic": false,
                     "strikethrough": false,
                     "underline": false
@@ -442,6 +887,33 @@
                     "element": "Tags",
                     "color": "#9A8C7C",
                     "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                }
+            ],
+            "preprocessor":
+            [
+                {
+                    "element": "Directives",
+                    "color": "#DD2867",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Headers",
+                    "color": "#17C6A3",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Others",
+                    "color": "#D9E8F7",
+                    "bold": false,
                     "italic": false,
                     "strikethrough": false,
                     "underline": false
