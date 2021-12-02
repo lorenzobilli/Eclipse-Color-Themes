@@ -343,6 +343,303 @@
                     "underline": false
                 }
             ],
+            "javascript":
+            [
+                {
+                    "element": "Brackets",
+                    "color": "#000000",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Comment",
+                    "color": "#3F7F5F",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Deprecated members",
+                    "color": "#000000",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": true,
+                    "underline": false
+                },
+                {
+                    "element": "Keywords",
+                    "color": "#7F0055",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Operators",
+                    "color": "#000000",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Other",
+                    "color": "#000000",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Strings",
+                    "color": "#2A00FF",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Template literal",
+                    "color": "#204A87",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                }
+            ],
+            "jsdoc":
+            [
+                {
+                    "element": "HTML markup",
+                    "color": "#7F7F9F",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Links",
+                    "color": "#3F3FBF",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Others",
+                    "color": "#3F5FBF",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Tags",
+                    "color": "#7F9FBF",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                }
+            ],
+            "php":
+            [
+                {
+                    "element": "Classes",
+                    "color": "#005032",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Comments",
+                    "color": "#557F5F",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Constants",
+                    "color": "#0000C0",
+                    "bold": false,
+                    "italic": true,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Deprecated members",
+                    "color": "#000000",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": true,
+                    "underline": false
+                },
+                {
+                    "element": "Fields",
+                    "color": "#0000C0",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Functions",
+                    "color": "#000000",
+                    "bold": false,
+                    "italic": true,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Heredoc",
+                    "color": "#008282",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Keyword",
+                    "color": "#7F0055",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Methods",
+                    "color": "#000000",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Normal",
+                    "color": "#000000",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Number",
+                    "color": "#000000",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Parameters variables",
+                    "color": "#000000",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": true
+                },
+                {
+                    "element": "PHP tags",
+                    "color": "#FF0000",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "PHPDoc",
+                    "color": "#7F9FBF",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "PHPDoc comment",
+                    "color": "#3F55BF",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Private keyword",
+                    "color": "#C21B30",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Protected keyword",
+                    "color": "#A57C2C",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Public/var keyword",
+                    "color": "#22804C",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Static fields",
+                    "color": "#0000C0",
+                    "bold": false,
+                    "italic": true,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Static methods",
+                    "color": "#000000",
+                    "bold": false,
+                    "italic": true,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "String",
+                    "color": "#0000C0",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Superglobal variables",
+                    "color": "#7F0055",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Task Tag",
+                    "color": "#7CA5D5",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Variable",
+                    "color": "#000000",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                }
+            ],
             "preprocessor":
             [
                 {
@@ -887,6 +1184,327 @@
                     "element": "Tags",
                     "color": "#9A8C7C",
                     "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                }
+            ],
+            "javascript":
+            [
+                {
+                    "element": "Brackets",
+                    "color": "#F9FAF4",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Comment",
+                    "color": "#608B4E",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Deprecated members",
+                    "color": "#AB1F36",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": true,
+                    "underline": false
+                },
+                {
+                    "element": "Keywords",
+                    "color": "#569CD6",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Local variable declarations",
+                    "color": "#ED7F48",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Local variable references",
+                    "color": "#FFBF26",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Operators",
+                    "color": "#E6E6FA",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Other",
+                    "color": "#D9E8F7",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Parameter variables",
+                    "color": "#79ABFF",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Strings",
+                    "color": "#CE9178",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Template literal",
+                    "color": "#204A87",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                }
+            ],
+            "jsdoc":
+            [
+                {
+                    "element": "HTML markup",
+                    "color": "#7F7F9F",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Links",
+                    "color": "#3F3FBF",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Others",
+                    "color": "#3F5FBF",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Tags",
+                    "color": "#7F9FBF",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                }
+            ],
+            "php":
+            [
+                {
+                    "element": "Classes",
+                    "color": "#1290C3",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Comments",
+                    "color": "#626262",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Constants",
+                    "color": "#8DDAF8",
+                    "bold": false,
+                    "italic": true,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Deprecated members",
+                    "color": "#AB1F36",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": true,
+                    "underline": false
+                },
+                {
+                    "element": "Fields",
+                    "color": "#66E1F8",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Functions",
+                    "color": "#97DD13",
+                    "bold": false,
+                    "italic": true,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Heredoc",
+                    "color": "#626262",
+                    "bold": false,
+                    "italic": true,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Keyword",
+                    "color": "#DD2867",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Methods",
+                    "color": "#1EB540",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Normal",
+                    "color": "#D9E8F7",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Number",
+                    "color": "#6897BB",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Parameters variables",
+                    "color": "#79ABFF",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "PHP tags",
+                    "color": "#E79C92",
+                    "bold": true,
+                    "italic": true,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "PHPDoc",
+                    "color": "#9A8C7C",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "PHPDoc comment",
+                    "color": "#626262",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Private keyword",
+                    "color": "#DD2867",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Protected keyword",
+                    "color": "#FCCD76",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Public/var keyword",
+                    "color": "#66CC66",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Static fields",
+                    "color": "#8DDAF8",
+                    "bold": false,
+                    "italic": true,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Static methods",
+                    "color": "#1EB540",
+                    "bold": false,
+                    "italic": true,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "String",
+                    "color": "#17C6A3",
+                    "bold": false,
+                    "italic": true,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Superglobal variables",
+                    "color": "#FFBF26",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Task Tag",
+                    "color": "#9A8C7C",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Variable",
+                    "color": "#FFBF26",
+                    "bold": false,
                     "italic": false,
                     "strikethrough": false,
                     "underline": false
