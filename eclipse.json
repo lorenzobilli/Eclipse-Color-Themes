@@ -160,6 +160,41 @@
                     "underline": false
                 }
             ],
+            "console":
+            [
+                {
+                    "element": "Standard Out text color",
+                    "color": "#000000",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Standard Error text color",
+                    "color": "#E11E46",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Standard In text color",
+                    "color": "#000000",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Background color",
+                    "color": "#FFFFFF",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                }
+            ],
             "css":
             [
                 {
@@ -1255,6 +1290,41 @@
                     "element": "Typedefs",
                     "color": "#1290C3",
                     "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                }
+            ],
+            "console":
+            [
+                {
+                    "element": "Standard Out text color",
+                    "color": "#EBEBEB",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Standard Error text color",
+                    "color": "#E11E46",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Standard In text color",
+                    "color": "#8CAFD2",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Background color",
+                    "color": "#353535",
+                    "bold": false,
                     "italic": false,
                     "strikethrough": false,
                     "underline": false
