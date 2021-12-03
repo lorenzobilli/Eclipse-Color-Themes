@@ -160,6 +160,185 @@
                     "underline": false
                 }
             ],
+            "css":
+            [
+                {
+                    "element": "At-Rule",
+                    "color": "#3F7F7F",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Attribute Name",
+                    "color": "#3F7F7F",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Attribute Selector Delimiter",
+                    "color": "#3F7F7F",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Attribute Selector Operator",
+                    "color": "#3F7F7F",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Attribute Value",
+                    "color": "#3F7F7F",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Class Selector",
+                    "color": "#3F7F7F",
+                    "bold": false,
+                    "italic": true,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Combinator",
+                    "color": "#3F7F7F",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Comment",
+                    "color": "#3F5FBF",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Curly Brace",
+                    "color": "#000000",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Default",
+                    "color": "#000000",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Error",
+                    "color": "#BF3F3F",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Id Selector",
+                    "color": "#3F7F7F",
+                    "bold": false,
+                    "italic": true,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Media Name",
+                    "color": "#2A00E1",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Property Delimiter",
+                    "color": "#000000",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Property Name",
+                    "color": "#7F007F",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Property Value",
+                    "color": "#2A00E1",
+                    "bold": false,
+                    "italic": true,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Pseudo-class",
+                    "color": "#3F7F7F",
+                    "bold": false,
+                    "italic": true,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Quoted String",
+                    "color": "#2A00E1",
+                    "bold": false,
+                    "italic": true,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Semicolon",
+                    "color": "#000000",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Type Selector",
+                    "color": "#3F7F7F",
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Universal Selector",
+                    "color": "#3F7F7F",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "URI",
+                    "color": "#2A00E1",
+                    "bold": false,
+                    "italic": true,
+                    "strikethrough": false,
+                    "underline": false
+                }
+            ],
             "doxygen":
             [
                 {
@@ -173,6 +352,113 @@
                 {
                     "element": "Tag",
                     "color": "#7F9FBF",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                }
+            ],
+            "html":
+            [
+                {
+                    "element": "Attribute Equal Signs",
+                    "color": "#000000",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Attribute Names",
+                    "color": "#7F007F",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Attribute Values",
+                    "color": "#2A00FF",
+                    "bold": false,
+                    "italic": true,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Comment",
+                    "color": "#3F5FBF",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Content",
+                    "color": "#000000",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Declaration Delimiters",
+                    "color": "#008080",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "DOCTYPE Name",
+                    "color": "#008080",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "DOCTYPE Public Reference",
+                    "color": "#008080",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "DOCTYPE System Reference",
+                    "color": "#3F7F5F",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "DOCTYPE SYSTEM/PUBLIC Keyword",
+                    "color": "#808080",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Entity References",
+                    "color": "#2A00FF",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Tag Delimiters",
+                    "color": "#008080",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Tag Names",
+                    "color": "#3F7F7F",
                     "bold": false,
                     "italic": false,
                     "strikethrough": false,
@@ -427,6 +713,89 @@
                     "color": "#7F9FBF",
                     "bold": true,
                     "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                }
+            ],
+            "json":
+            [
+                {
+                    "element": "Boolean value",
+                    "color": "#FF8C00",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Colon",
+                    "color": "#000000",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Comma",
+                    "color": "#000000",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Comment",
+                    "color": "#3F5FBF",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Curly",
+                    "color": "#000000",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Normal",
+                    "color": "#000000",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Null value",
+                    "color": "#969696",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Number value",
+                    "color": "#FF0000",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Object key",
+                    "color": "#7F007F",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "String value",
+                    "color": "#2A00FF",
+                    "bold": false,
+                    "italic": true,
                     "strikethrough": false,
                     "underline": false
                 }
@@ -891,6 +1260,185 @@
                     "underline": false
                 }
             ],
+            "css":
+            [
+                {
+                    "element": "At-Rule",
+                    "color": "#A7EC21",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Attribute Name",
+                    "color": "#F7C517",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Attribute Selector Delimiter",
+                    "color": "#F7C517",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Attribute Selector Operator",
+                    "color": "#F7C517",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Attribute Value",
+                    "color": "#FF8080",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Class Selector",
+                    "color": "#12E046",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Combinator",
+                    "color": "#A7EC21",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Comment",
+                    "color": "#626262",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Curly Brace",
+                    "color": "#F9FAF4",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Default",
+                    "color": "#D9E8F7",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Error",
+                    "color": "#BF3F3F",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Id Selector",
+                    "color": "#A7EC21",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Media Name",
+                    "color": "#DD2867",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Property Delimiter",
+                    "color": "#3198FF",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Property Name",
+                    "color": "#0699F0",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Property Value",
+                    "color": "#17C6A3",
+                    "bold": false,
+                    "italic": true,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Pseudo-class",
+                    "color": "#FB518C",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Quoted String",
+                    "color": "#17C6A3",
+                    "bold": false,
+                    "italic": true,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Semicolon",
+                    "color": "#D9E8F7",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Type Selector",
+                    "color": "#65F228",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Universal Selector",
+                    "color": "#A7EC21",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "URI",
+                    "color": "#17C6A3",
+                    "bold": false,
+                    "italic": true,
+                    "strikethrough": false,
+                    "underline": false
+                }
+            ],
             "doxygen":
             [
                 {
@@ -905,6 +1453,113 @@
                     "element": "Tag",
                     "color": "#7F9FBF",
                     "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                }
+            ],
+            "html":
+            [
+                {
+                    "element": "Attribute Equal Signs",
+                    "color": "#52CA11",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Attribute Names",
+                    "color": "#A7EC21",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Attribute Values",
+                    "color": "#17C6A3",
+                    "bold": false,
+                    "italic": true,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Comment",
+                    "color": "#626262",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Content",
+                    "color": "#D9E8F7",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Declaration Delimiters",
+                    "color": "#A7EC21",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "DOCTYPE Name",
+                    "color": "#FEA88F",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "DOCTYPE Public Reference",
+                    "color": "#F0A253",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "DOCTYPE System Reference",
+                    "color": "#FBD153",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "DOCTYPE SYSTEM/PUBLIC Keyword",
+                    "color": "#CF96EB",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Entity References",
+                    "color": "#DD2867",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Tag Delimiters",
+                    "color": "#0080FF",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Tag Names",
+                    "color": "#03A8D8",
+                    "bold": true,
                     "italic": false,
                     "strikethrough": false,
                     "underline": false
@@ -1294,6 +1949,89 @@
                     "color": "#7F9FBF",
                     "bold": true,
                     "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                }
+            ],
+            "json":
+            [
+                {
+                    "element": "Boolean value",
+                    "color": "#03A8D8",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Colon",
+                    "color": "#FFFFFF",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Comma",
+                    "color": "#FFFFFF",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Comment",
+                    "color": "#3F5FBF",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Curly",
+                    "color": "#FFFFFF",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Normal",
+                    "color": "#000000",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Null value",
+                    "color": "#969696",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Number value",
+                    "color": "#D25242",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "Object key",
+                    "color": "#BED6FF",
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false
+                },
+                {
+                    "element": "String value",
+                    "color": "#FFC600",
+                    "bold": true,
+                    "italic": true,
                     "strikethrough": false,
                     "underline": false
                 }
