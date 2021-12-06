@@ -3,8 +3,8 @@
 	"type": "dark",
 	"colors": {
 		"activityBarBadge.background": "#007acc",
-		"editor.background": "#1e1e1e",
-		"editor.foreground": "#d4d4d4",
+		"editor.background": "#292929",
+		"editor.foreground": "#D9E8F7",
 		"editor.inactiveSelectionBackground": "#3a3d41",
 		"editor.selectionHighlightBackground": "#add6ff26",
 		"editorIndentGuide.activeBackground": "#707070",
@@ -220,9 +220,14 @@
 			}
 		},
 		{
-			"scope": "storage",
+			"name": "Storage",
+			"scope": [
+				"storage",
+				"storage.modifier",
+			],
 			"settings": {
-				"foreground": "#569CD6"
+				"foreground": "#DD2867",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -233,7 +238,6 @@
 		},
 		{
 			"scope": [
-				"storage.modifier",
 				"keyword.operator.noexcept"
 			],
 			"settings": {
@@ -299,25 +303,10 @@
 			}
 		},
 		{
-			"scope": "keyword",
-			"settings": {
-				"foreground": "#569CD6"
-			}
-		},
-		{
-			"scope": "keyword.control",
-			"settings": {
-				"foreground": "#569CD6"
-			}
-		},
-		{
-			"scope": "keyword.operator",
-			"settings": {
-				"foreground": "#D4D4D4"
-			}
-		},
-		{
+			"name": "Keywords",
 			"scope": [
+				"keyword",
+				"keyword.control",
 				"keyword.operator.new",
 				"keyword.operator.expression",
 				"keyword.operator.cast",
@@ -330,7 +319,15 @@
 				"keyword.operator.wordlike"
 			],
 			"settings": {
-				"foreground": "#569CD6"
+				"foreground": "#DD2867",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Operators",
+			"scope": "keyword.operator",
+			"settings": {
+				"foreground": "#E6E6FA"
 			}
 		},
 		{
@@ -371,15 +368,17 @@
 			}
 		},
 		{
-			"scope": "variable.language",
+			"name": "Functions",
+			"scope": [
+				"entity.name.function",
+				"support.function"
+			],
 			"settings": {
-				"foreground": "#569CD6"
+				"foreground": "#A7EC21"
 			}
 		},
 		{
 			"scope": [
-				"entity.name.function",
-				"support.function",
 				"support.constant.handlebars",
 				"source.powershell variable.other.member",
 				"entity.name.operator.custom-literal"
@@ -389,6 +388,7 @@
 			}
 		},
 		{
+			"name": "Classes",
 			"scope": [
 				"meta.return-type",
 				"support.class",
@@ -425,7 +425,8 @@
 				"storage.type.primitive.groovy"
 			],
 			"settings": {
-				"foreground": "#4EC9B0"
+				"foreground": "#1290C3",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -443,7 +444,6 @@
 		},
 		{
 			"scope": [
-				"keyword.control",
 				"source.cpp keyword.operator.new",
 				"keyword.operator.delete",
 				"keyword.other.using",
@@ -455,15 +455,17 @@
 			}
 		},
 		{
+			"name": "Variables",
 			"scope": [
 				"variable",
+				"variable.language",
 				"meta.definition.variable.name",
 				"support.variable",
 				"entity.name.variable",
 				"constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#9CDCFE"
+				"foreground": "#FFBF26"
 			}
 		},
 		{
