@@ -51,9 +51,10 @@
 			}
 		},
 		{
+			"name": "Comments",
 			"scope": "comment",
 			"settings": {
-				"foreground": "#6A9955"
+				"foreground": "#626262"
 			}
 		},
 		{
@@ -110,6 +111,16 @@
 			],
 			"settings": {
 				"foreground": "#D7BA7D"
+			}
+		},
+		{
+			"name": "Constants",
+			"scope": [
+				"constant.other"
+			],
+			"settings": {
+				"foreground": "#66E1F8",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -224,6 +235,7 @@
 			"scope": [
 				"storage",
 				"storage.modifier",
+				"storage.type"
 			],
 			"settings": {
 				"foreground": "#DD2867",
@@ -231,26 +243,13 @@
 			}
 		},
 		{
-			"scope": "storage.type",
-			"settings": {
-				"foreground": "#569CD6"
-			}
-		},
-		{
-			"scope": [
-				"keyword.operator.noexcept"
-			],
-			"settings": {
-				"foreground": "#569CD6"
-			}
-		},
-		{
+			"name": "Strings",
 			"scope": [
 				"string",
 				"meta.embedded.assembly"
 			],
 			"settings": {
-				"foreground": "#CE9178"
+				"foreground": "#17C6A3"
 			}
 		},
 		{
@@ -303,6 +302,29 @@
 			}
 		},
 		{
+			"name": "Fields",
+			"scope": [
+				"variable.other.object.property",
+				"variable.other.definition.java",
+				"entity.name.variable.field",
+				"entity.name.variable.property",
+				"entity.name.variable.event"
+			],
+			"settings": {
+				"foreground": "#66E1F8",
+			}
+		},
+		{
+			"name": "Parameters",
+			"scope": [
+				"variable.parameter",
+				"entity.name.variable.parameter"
+			],
+			"settings": {
+				"foreground": "#79ABFF"
+			}
+		},
+		{
 			"name": "Keywords",
 			"scope": [
 				"keyword",
@@ -316,7 +338,9 @@
 				"keyword.operator.alignas",
 				"keyword.operator.instanceof",
 				"keyword.operator.logical.python",
-				"keyword.operator.wordlike"
+				"keyword.operator.wordlike",
+				"keyword.operator.noexcept",
+				"keyword.other.unit"
 			],
 			"settings": {
 				"foreground": "#DD2867",
@@ -324,16 +348,17 @@
 			}
 		},
 		{
+			"name": "Numbers",
+			"scope": "constant.numeric",
+			"settings": {
+				"foreground": "#6897BB"
+			}
+		},
+		{
 			"name": "Operators",
 			"scope": "keyword.operator",
 			"settings": {
 				"foreground": "#E6E6FA"
-			}
-		},
-		{
-			"scope": "keyword.other.unit",
-			"settings": {
-				"foreground": "#B5CEA8"
 			}
 		},
 		{
@@ -365,6 +390,16 @@
 			],
 			"settings": {
 				"foreground": "#D4D4D4"
+			}
+		},
+		{
+			"name": "Enums",
+			"scope": [
+				"entity.name.type.enum"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#CC81BA"
 			}
 		},
 		{
@@ -452,6 +487,16 @@
 			],
 			"settings": {
 				"foreground": "#C586C0"
+			}
+		},
+		{
+			"name": "Static final fields",
+			"scope": [
+				"constant.other.enum"
+			],
+			"settings": {
+				"foreground": "#8DDAF8",
+				"fontStyle": "italic bold"
 			}
 		},
 		{
