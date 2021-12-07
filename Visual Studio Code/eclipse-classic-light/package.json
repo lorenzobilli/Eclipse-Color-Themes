@@ -1,0 +1,21 @@
+{
+    "name": "eclipse-classic-light",
+    "displayName": "Eclipse Classic Light",
+    "description": "A complete port of the Eclipse classic light theme.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.62.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Eclipse Classic Light",
+                "uiTheme": "vs",
+                "path": "./themes/Eclipse Classic Light-color-theme.json"
+            }
+        ]
+    }
+}
