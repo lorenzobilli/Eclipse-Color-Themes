@@ -24,30 +24,58 @@
 	},
 	"tokenColors": [
 		{
+			"name": "Annotations",
 			"scope": [
-				"meta.embedded",
-				"source.groovy.embedded"
+				"storage.type.annotation",
+				"meta.declaration.annotation"
 			],
 			"settings": {
-				"foreground": "#D4D4D4"
+				"foreground": "#FF9393",
+				"fontStyle": "italic bold"
 			}
 		},
 		{
-			"scope": "emphasis",
+			"name": "Classes",
+			"scope": [
+				"meta.return-type",
+				"support.class",
+				"support.type",
+				"entity.name.type",
+				"entity.name.namespace",
+				"entity.other.attribute",
+				"entity.name.scope-resolution",
+				"entity.name.class",
+				"storage.type.numeric.go",
+				"storage.type.byte.go",
+				"storage.type.boolean.go",
+				"storage.type.string.go",
+				"storage.type.uintptr.go",
+				"storage.type.error.go",
+				"storage.type.rune.go",
+				"storage.type.cs",
+				"storage.type.generic.cs",
+				"storage.type.modifier.cs",
+				"storage.type.variable.cs",
+				"storage.type.generic.java",
+				"storage.type.java",
+				"storage.type.object.array.java",
+				"storage.type.primitive.array.java",
+				"storage.type.primitive.java",
+				"storage.type.token.java",
+				"storage.type.groovy",
+				"storage.type.annotation.groovy",
+				"storage.type.parameters.groovy",
+				"storage.type.generic.groovy",
+				"storage.type.object.array.groovy",
+				"storage.type.primitive.array.groovy",
+				"storage.type.primitive.groovy",
+				"storage.modifier.import.java",
+				"variable.language.wildcard.java",
+				"storage.modifier.package.java"
+			],
 			"settings": {
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"scope": "strong",
-			"settings": {
+				"foreground": "#1290C3",
 				"fontStyle": "bold"
-			}
-		},
-		{
-			"scope": "header",
-			"settings": {
-				"foreground": "#000080"
 			}
 		},
 		{
@@ -58,20 +86,190 @@
 			}
 		},
 		{
-			"scope": "constant.language",
+			"name": "Constants",
+			"scope": [
+				"constant.language",
+				"constant.other"
+			],
 			"settings": {
-				"foreground": "#569CD6"
+				"foreground": "#66E1F8"
 			}
 		},
 		{
+			"name": "Deprecated",
+			"scope": "invalid.deprecated",
+			"settings": {
+				"foreground": "#AB1F36",
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"name": "Emphasis text",
+			"scope": "emphasis",
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Enums",
 			"scope": [
-				"constant.numeric",
-				"variable.other.enummember",
+				"entity.name.type.enum"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#CC81BA"
+			}
+		},
+		{
+			"name": "Error",
+			"scope": [
+				"invalid",
+				"invalid.illegal"
+			],
+			"settings": {
+				"foreground": "#F44747"
+			}
+		},
+		{
+			"name": "Fields",
+			"scope": [
+				"variable.other.object.property",
+				"variable.other.definition.java",
+				"entity.name.variable.field",
+				"entity.name.variable.property",
+				"entity.name.variable.event"
+			],
+			"settings": {
+				"foreground": "#66E1F8",
+			}
+		},
+		{
+			"name": "Functions",
+			"scope": [
+				"entity.name.function",
+				"support.function"
+			],
+			"settings": {
+				"foreground": "#A7EC21"
+			}
+		},
+		{
+			"name": "Keywords",
+			"scope": [
+				"keyword",
+				"keyword.control",
+				"keyword.operator.new",
+				"keyword.operator.expression",
+				"keyword.operator.cast",
+				"keyword.operator.sizeof",
+				"keyword.operator.alignof",
+				"keyword.operator.typeid",
+				"keyword.operator.alignas",
+				"keyword.operator.instanceof",
+				"keyword.operator.logical.python",
+				"keyword.operator.wordlike",
+				"keyword.operator.noexcept",
+				"keyword.other.unit",
+				"source.cpp keyword.operator.new",
+				"keyword.operator.delete",
+				"keyword.other.using",
+				"keyword.other.operator",
+				"entity.name.operator",
+				"storage",
+				"storage.modifier",
+				"storage.type"
+			],
+			"settings": {
+				"foreground": "#DD2867",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Numbers",
+			"scope": "constant.numeric",
+			"settings": {
+				"foreground": "#6897BB"
+			}
+		},
+		{
+			"name": "Operators",
+			"scope": [
+				"keyword.operator",
 				"keyword.operator.plus.exponent",
 				"keyword.operator.minus.exponent"
 			],
 			"settings": {
-				"foreground": "#B5CEA8"
+				"foreground": "#E6E6FA"
+			}
+		},
+		{
+			"name": "Parameters",
+			"scope": [
+				"variable.parameter",
+				"entity.name.variable.parameter"
+			],
+			"settings": {
+				"foreground": "#79ABFF"
+			}
+		},
+		{
+			"name": "Static final fields",
+			"scope": [
+				"constant.other.enum",
+				"variable.other.enummember"
+			],
+			"settings": {
+				"foreground": "#8DDAF8",
+				"fontStyle": "italic bold"
+			}
+		},
+		{
+			"name": "Strings",
+			"scope": [
+				"string",
+				"string.tag",
+				"string.value",
+				"string.regexp",
+				"meta.embedded.assembly"
+			],
+			"settings": {
+				"foreground": "#17C6A3"
+			}
+		},
+		{
+			"name": "Strong text",
+			"scope": "strong",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
+				"variable",
+				"variable.language",
+				"meta.definition.variable.name",
+				"support.variable",
+				"entity.name.variable",
+				"constant.other.placeholder"
+			],
+			"settings": {
+				"foreground": "#FFBF26"
+			}
+		},
+		{
+			"scope": [
+				"meta.embedded",
+				"source.groovy.embedded"
+			],
+			"settings": {
+				"foreground": "#D4D4D4"
+			}
+		},
+		{
+			"scope": "header",
+			"settings": {
+				"foreground": "#000080"
 			}
 		},
 		{
@@ -111,22 +309,6 @@
 			],
 			"settings": {
 				"foreground": "#D7BA7D"
-			}
-		},
-		{
-			"name": "Constants",
-			"scope": [
-				"constant.other"
-			],
-			"settings": {
-				"foreground": "#66E1F8",
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"scope": "invalid",
-			"settings": {
-				"foreground": "#F44747"
 			}
 		},
 		{
@@ -231,46 +413,6 @@
 			}
 		},
 		{
-			"name": "Storage",
-			"scope": [
-				"storage",
-				"storage.modifier",
-				"storage.type"
-			],
-			"settings": {
-				"foreground": "#DD2867",
-				"fontStyle": "bold"
-			}
-		},
-		{
-			"name": "Strings",
-			"scope": [
-				"string",
-				"meta.embedded.assembly"
-			],
-			"settings": {
-				"foreground": "#17C6A3"
-			}
-		},
-		{
-			"scope": "string.tag",
-			"settings": {
-				"foreground": "#CE9178"
-			}
-		},
-		{
-			"scope": "string.value",
-			"settings": {
-				"foreground": "#CE9178"
-			}
-		},
-		{
-			"scope": "string.regexp",
-			"settings": {
-				"foreground": "#D16969"
-			}
-		},
-		{
 			"scope": [
 				"punctuation.definition.template-expression.begin",
 				"punctuation.definition.template-expression.end",
@@ -282,7 +424,7 @@
 		},
 		{
 			"scope": [
-				"meta.template.expression"
+				"meta.template.expression",
 			],
 			"settings": {
 				"foreground": "#D4D4D4"
@@ -299,66 +441,6 @@
 			],
 			"settings": {
 				"foreground": "#9CDCFE"
-			}
-		},
-		{
-			"name": "Fields",
-			"scope": [
-				"variable.other.object.property",
-				"variable.other.definition.java",
-				"entity.name.variable.field",
-				"entity.name.variable.property",
-				"entity.name.variable.event"
-			],
-			"settings": {
-				"foreground": "#66E1F8",
-			}
-		},
-		{
-			"name": "Parameters",
-			"scope": [
-				"variable.parameter",
-				"entity.name.variable.parameter"
-			],
-			"settings": {
-				"foreground": "#79ABFF"
-			}
-		},
-		{
-			"name": "Keywords",
-			"scope": [
-				"keyword",
-				"keyword.control",
-				"keyword.operator.new",
-				"keyword.operator.expression",
-				"keyword.operator.cast",
-				"keyword.operator.sizeof",
-				"keyword.operator.alignof",
-				"keyword.operator.typeid",
-				"keyword.operator.alignas",
-				"keyword.operator.instanceof",
-				"keyword.operator.logical.python",
-				"keyword.operator.wordlike",
-				"keyword.operator.noexcept",
-				"keyword.other.unit"
-			],
-			"settings": {
-				"foreground": "#DD2867",
-				"fontStyle": "bold"
-			}
-		},
-		{
-			"name": "Numbers",
-			"scope": "constant.numeric",
-			"settings": {
-				"foreground": "#6897BB"
-			}
-		},
-		{
-			"name": "Operators",
-			"scope": "keyword.operator",
-			"settings": {
-				"foreground": "#E6E6FA"
 			}
 		},
 		{
@@ -384,84 +466,12 @@
 		},
 		{
 			"scope": [
-				"storage.modifier.import.java",
-				"variable.language.wildcard.java",
-				"storage.modifier.package.java"
-			],
-			"settings": {
-				"foreground": "#D4D4D4"
-			}
-		},
-		{
-			"name": "Enums",
-			"scope": [
-				"entity.name.type.enum"
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#CC81BA"
-			}
-		},
-		{
-			"name": "Functions",
-			"scope": [
-				"entity.name.function",
-				"support.function"
-			],
-			"settings": {
-				"foreground": "#A7EC21"
-			}
-		},
-		{
-			"scope": [
 				"support.constant.handlebars",
 				"source.powershell variable.other.member",
 				"entity.name.operator.custom-literal"
 			],
 			"settings": {
 				"foreground": "#DCDCAA"
-			}
-		},
-		{
-			"name": "Classes",
-			"scope": [
-				"meta.return-type",
-				"support.class",
-				"support.type",
-				"entity.name.type",
-				"entity.name.namespace",
-				"entity.other.attribute",
-				"entity.name.scope-resolution",
-				"entity.name.class",
-				"storage.type.numeric.go",
-				"storage.type.byte.go",
-				"storage.type.boolean.go",
-				"storage.type.string.go",
-				"storage.type.uintptr.go",
-				"storage.type.error.go",
-				"storage.type.rune.go",
-				"storage.type.cs",
-				"storage.type.generic.cs",
-				"storage.type.modifier.cs",
-				"storage.type.variable.cs",
-				"storage.type.annotation.java",
-				"storage.type.generic.java",
-				"storage.type.java",
-				"storage.type.object.array.java",
-				"storage.type.primitive.array.java",
-				"storage.type.primitive.java",
-				"storage.type.token.java",
-				"storage.type.groovy",
-				"storage.type.annotation.groovy",
-				"storage.type.parameters.groovy",
-				"storage.type.generic.groovy",
-				"storage.type.object.array.groovy",
-				"storage.type.primitive.array.groovy",
-				"storage.type.primitive.groovy"
-			],
-			"settings": {
-				"foreground": "#1290C3",
-				"fontStyle": "bold"
 			}
 		},
 		{
@@ -475,51 +485,6 @@
 			],
 			"settings": {
 				"foreground": "#4EC9B0"
-			}
-		},
-		{
-			"scope": [
-				"source.cpp keyword.operator.new",
-				"keyword.operator.delete",
-				"keyword.other.using",
-				"keyword.other.operator",
-				"entity.name.operator"
-			],
-			"settings": {
-				"foreground": "#C586C0"
-			}
-		},
-		{
-			"name": "Static final fields",
-			"scope": [
-				"constant.other.enum"
-			],
-			"settings": {
-				"foreground": "#8DDAF8",
-				"fontStyle": "italic bold"
-			}
-		},
-		{
-			"name": "Variables",
-			"scope": [
-				"variable",
-				"variable.language",
-				"meta.definition.variable.name",
-				"support.variable",
-				"entity.name.variable",
-				"constant.other.placeholder"
-			],
-			"settings": {
-				"foreground": "#FFBF26"
-			}
-		},
-		{
-			"scope": [
-				"variable.other.constant",
-				"variable.other.enummember"
-			],
-			"settings": {
-				"foreground": "#4FC1FF"
 			}
 		},
 		{
