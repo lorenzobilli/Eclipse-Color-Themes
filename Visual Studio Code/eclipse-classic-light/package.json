@@ -2,7 +2,23 @@
     "name": "eclipse-classic-light",
     "displayName": "Eclipse Classic Light",
     "description": "A complete port of the Eclipse classic light theme.",
-    "version": "0.0.1",
+    "version": "0.1.0",
+    "author": "Lorenzo Billi",
+    "publisher": "Lorenzo Billi",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lorenzobilli/Eclipse-color-theme"
+    },
+    "keywords": [
+        "eclipse",
+        "classic",
+        "theme",
+        "light",
+        "mars",
+        "neon",
+        "lorenzobilli",
+        "lorenzo billi"        
+    ],
     "engines": {
         "vscode": "^1.62.0"
     },
