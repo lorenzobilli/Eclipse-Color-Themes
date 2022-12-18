@@ -1638,6 +1638,7 @@
             "java":
             [
                 {
+                    // rgb(62,171,230)
                     "element": "Abstract classes",
                     "color": "#3EABE6",
                     "bold": true,
@@ -1646,6 +1647,7 @@
                     "underline": false
                 },
                 {
+                    // rgb(128,246,167)
                     "element": "Abstract method invocations",
                     "color": "#80F6A7",
                     "bold": false,
@@ -1654,6 +1656,7 @@
                     "underline": false
                 },
                 {
+                    // rgb(235,75,100)
                     "element": "Annotation element references",
                     "color": "#EB4B64",
                     "bold": false,
@@ -1662,6 +1665,7 @@
                     "underline": false
                 },
                 {
+                    // rgb(255,147,147)
                     "element": "Annotations",
                     "color": "#FF9393",
                     "bold": true,
@@ -1670,6 +1674,7 @@
                     "underline": false
                 },
                 {
+                    // rgb(249,250,244)
                     "element": "Brackets",
                     "color": "#F9FAF4",
                     "bold": false,
@@ -1678,6 +1683,7 @@
                     "underline": false
                 },
                 {
+                    // rgb(18,144,195)
                     "element": "Classes",
                     "color": "#1290C3",
                     "bold": true,
@@ -1686,6 +1692,7 @@
                     "underline": false
                 },
                 {
+                    // rgb(98,98,98)
                     "element": "Comments",
                     "color": "#626262",
                     "bold": false,
@@ -1694,6 +1701,7 @@
                     "underline": false
                 },
                 {
+                    // rgb(171,31,54)
                     "element": "Deprecated members",
                     "color": "#AB1F36",
                     "bold": false,
@@ -1702,6 +1710,7 @@
                     "underline": false
                 },
                 {
+                    // rgb(204,129,186)
                     "element": "Enums",
                     "color": "#CC81BA",
                     "bold": false,
@@ -1710,6 +1719,7 @@
                     "underline": false
                 },
                 {
+                    // rgb(102,225,248)
                     "element": "Fields",
                     "color": "#66E1F8",
                     "bold": false,
@@ -1718,6 +1728,7 @@
                     "underline": false
                 },
                 {
+                    // rgb(205,246,104)
                     "element": "Inherited method invocations",
                     "color": "#CDF668",
                     "bold": false,
@@ -1726,6 +1737,7 @@
                     "underline": false
                 },
                 {
+                    // rgb(128,242,246)
                     "element": "Interfaces",
                     "color": "#80F2F6",
                     "bold": false,
@@ -1734,6 +1746,7 @@
                     "underline": false
                 },
                 {
+                    // rgb(221,40,103)
                     "element": "Keywords",
                     "color": "#DD2867",
                     "bold": true,
@@ -1742,6 +1755,7 @@
                     "underline": false
                 },
                 {
+                    // rgb(237,127,72)
                     "element": "Local variable declarations",
                     "color": "#ED7F48",
                     "bold": true,
@@ -1750,6 +1764,7 @@
                     "underline": false
                 },
                 {
+                    // rgb(255,191,38)
                     "element": "Local variables",
                     "color": "#FFBF26",
                     "bold": false,
@@ -1758,6 +1773,7 @@
                     "underline": false
                 },
                 {
+                    // rgb(30,181,64)
                     "element": "Method declarations",
                     "color": "#1EB540",
                     "bold": true,
@@ -1766,6 +1782,7 @@
                     "underline": false
                 },
                 {
+                    // rgb(167,236,33)
                     "element": "Methods",
                     "color": "#A7EC21",
                     "bold": false,
@@ -1774,6 +1791,7 @@
                     "underline": false
                 },
                 {
+                    // rgb(104,151,187)
                     "element": "Numbers",
                     "color": "#6897BB",
                     "bold": false,
@@ -1782,6 +1800,7 @@
                     "underline": false
                 },
                 {
+                    // rgb(230,230,250)
                     "element": "Operators",
                     "color": "#E6E6FA",
                     "bold": false,
@@ -1790,6 +1809,7 @@
                     "underline": false
                 },
                 {
+                    // rgb(217,232,247)
                     "element": "Others",
                     "color": "#D9E8F7",
                     "bold": false,
@@ -1798,6 +1818,7 @@
                     "underline": false
                 },
                 {
+                    // rgb(121,171,255)
                     "element": "Parameter variables",
                     "color": "#79ABFF",
                     "bold": false,
@@ -1806,6 +1827,7 @@
                     "underline": false
                 },
                 {
+                    // rgb(141,218,248)
                     "element": "Static fields",
                     "color": "#8DDAF8",
                     "bold": false,
@@ -1814,6 +1836,7 @@
                     "underline": false
                 },
                 {
+                    // rgb(141,218,248)
                     "element": "Static final fields",
                     "color": "#8DDAF8",
                     "bold": true,
@@ -1822,6 +1845,7 @@
                     "underline": false
                 },
                 {
+                    // rgb(150,236,63)
                     "element": "Static method invocations",
                     "color": "#96EC3F",
                     "bold": false,
@@ -1830,6 +1854,7 @@
                     "underline": false
                 },
                 {
+                    // rgb(23,198,163)
                     "element": "Strings",
                     "color": "#17C6A3",
                     "bold": false,
@@ -1838,6 +1863,7 @@
                     "underline": false
                 },
                 {
+                    // rgb(154,140,124)
                     "element": "Task Tags",
                     "color": "#9A8C7C",
                     "bold": true,
@@ -1846,6 +1872,7 @@
                     "underline": false
                 },
                 {
+                    // rgb(215,131,127)
                     "element": "Type arguments",
                     "color": "#D7837F",
                     "bold": false,
@@ -1854,6 +1881,7 @@
                     "underline": false
                 },
                 {
+                    // rgb(191,164,164)
                     "element": "Type variables",
                     "color": "#BFA4A4",
                     "bold": true,
@@ -1865,6 +1893,7 @@
             "javadoc":
             [
                 {
+                    // rgb(30,120,155)
                     "element": "HTML markup",
                     "color": "#1E789B",
                     "bold": false,
@@ -1873,6 +1902,7 @@
                     "underline": false
                 },
                 {
+                    // rgb(169,156,140)
                     "element": "Links",
                     "color": "#A99C8C",
                     "bold": false,
@@ -1881,6 +1911,7 @@
                     "underline": false
                 },
                 {
+                    // rgb(98,98,98)
                     "element": "Others",
                     "color": "#626262",
                     "bold": false,
@@ -1889,6 +1920,7 @@
                     "underline": false
                 },
                 {
+                    // rgb(154,140,124)
                     "element": "Tags",
                     "color": "#9A8C7C",
                     "bold": true,
