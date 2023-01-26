@@ -30,7 +30,43 @@
 	},
 	"tokenColors": [
 
-		// Custom values
+		// Custom values - Non-code tokens
+
+		{
+			"name": "Deprecated",
+			"scope": "invalid.deprecated",
+			"settings": {
+				"foreground": "#AB1F36",
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"name": "Emphasis text",
+			"scope": "emphasis",
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Error",
+			"scope": [
+				"invalid",
+				"invalid.illegal"
+			],
+			"settings": {
+				"foreground": "#F44747",
+				"fontStyle": "None"
+			}
+		},
+		{
+			"name": "Strong text",
+			"scope": "strong",
+			"settings": {
+				"fontStyle": "bold",
+			}
+		},
+
+		// Custom values - All programming languages
 
 		{
 			"name": "Annotations",
@@ -69,41 +105,17 @@
 				"storage.type.uintptr.go",
 				"storage.type.error.go",
 				"storage.type.rune.go",
-				"storage.type.cs",
-				"storage.type.generic.cs",
-				"storage.type.modifier.cs",
-				"storage.type.variable.cs",
-				"storage.type.generic.java",
-				"storage.type.java",
-				"storage.type.object.array.java",
-				"storage.type.primitive.array.java",
-				"storage.type.primitive.java",
-				"storage.type.token.java",
 				"storage.type.groovy",
 				"storage.type.annotation.groovy",
 				"storage.type.parameters.groovy",
 				"storage.type.generic.groovy",
 				"storage.type.object.array.groovy",
 				"storage.type.primitive.array.groovy",
-				"storage.type.primitive.groovy",
-				"storage.modifier.import.java",
-				"variable.language.wildcard.java",
-				"storage.modifier.package.java"
+				"storage.type.primitive.groovy"
 			],
 			"settings": {
 				"foreground": "#1290C3",
 				"fontStyle": "bold"
-			}
-		},
-		{
-			"name": "Classes (CSS)",
-			"scope": [
-				"entity.other.attribute-name.class.css",
-				"entity.other.attribute-name.class.mixin.css"
-			],
-			"settings": {
-				"foreground": "#12E046",
-				"fontStyle": "None"
 			}
 		},
 		{
@@ -125,40 +137,24 @@
 				"fontStyle": "None"
 			}
 		},
-		{
-			"name": "Deprecated",
-			"scope": "invalid.deprecated",
-			"settings": {
-				"foreground": "#AB1F36",
-				"fontStyle": "underline"
-			}
-		},
+		//TODO: Check for other languages support
 		{
 			"name": "Documentation",
 			"scope": [
-				"comment.block.javadoc.java",
-				"comment.block.documentation.cs"
 			],
 			"settings": {
 				"foreground": "#626262",
 				"fontStyle": "None"
 			}
 		},
+		//TODO: Check for other languages support
 		{
 			"name": "Documentation tags",
 			"scope": [
-				"keyword.other.documentation.javadoc.java"
 			],
 			"settings": {
 				"foreground": "#9A8C7C",
 				"fontStyle": "bold"
-			}
-		},
-		{
-			"name": "Emphasis text",
-			"scope": "emphasis",
-			"settings": {
-				"fontStyle": "italic"
 			}
 		},
 		{
@@ -172,21 +168,9 @@
 			}
 		},
 		{
-			"name": "Error",
-			"scope": [
-				"invalid",
-				"invalid.illegal"
-			],
-			"settings": {
-				"foreground": "#F44747",
-				"fontStyle": "None"
-			}
-		},
-		{
 			"name": "Fields",
 			"scope": [
 				"variable.other.object.property",
-				"variable.other.definition.java",
 				"entity.name.variable.field",
 				"entity.name.variable.property",
 				"entity.name.variable.event"
@@ -201,26 +185,6 @@
 			"scope": [
 				"entity.name.function",
 				"support.function"
-			],
-			"settings": {
-				"foreground": "#A7EC21",
-				"fontStyle": "None"
-			}
-		},
-		{
-			"name": "Functions (JavaScript)",
-			"scope": [
-				"storage.type.function.js"
-			],
-			"settings": {
-				"foreground": "#569CD6",
-				"fontStyle": "bold"
-			}
-		},
-		{
-			"name": "Id selector (CSS)",
-			"scope": [
-				"entity.other.attribute-name.id.css"
 			],
 			"settings": {
 				"foreground": "#A7EC21",
@@ -256,19 +220,6 @@
 			],
 			"settings": {
 				"foreground": "#DD2867",
-				"fontStyle": "bold"
-			}
-		},
-		{
-			"name": "Keywords (JavaScript)",
-			"scope": [
-				"keyword.js",
-				"keyword.control.js",
-				"storage.type.js",
-				"variable.language.this.js"
-			],
-			"settings": {
-				"foreground": "#569CD6",
 				"fontStyle": "bold"
 			}
 		},
@@ -328,36 +279,6 @@
 			}
 		},
 		{
-			"name": "Property names (CSS)",
-			"scope": [
-				"support.type.property-name.css"
-			],
-			"settings": {
-				"foreground": "#0699F0",
-				"fontStyle": "None"
-			}
-		},
-		{
-			"name": "Property values (CSS)",
-			"scope": [
-				"support.constant.property-value.css"
-			],
-			"settings": {
-				"foreground": "#17C6A3",
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"name": "Pseudo-class (CSS)",
-			"scope": [
-				"entity.other.attribute-name.pseudo-class.css"
-			],
-			"settings": {
-				"foreground": "#FB518C",
-				"fontStyle": "None"
-			}
-		},
-		{
 			"name": "Static final fields",
 			"scope": [
 				"constant.other.enum",
@@ -391,28 +312,6 @@
 			}
 		},
 		{
-			"name": "Strings (JavaScript)",
-			"scope": [
-				"string.js",
-				"string.tag.js",
-				"string.value.js",
-				"string.regexp.js",
-				"meta.embedded.assembly.js",
-				"meta.preprocessor.string.js"
-			],
-			"settings": {
-				"foreground": "#CE9178",
-				"fontStyle": "None"
-			}
-		},
-		{
-			"name": "Strong text",
-			"scope": "strong",
-			"settings": {
-				"fontStyle": "bold",
-			}
-		},
-		{
 			"name": "Tag content",
 			"scope": [
 				"entity.name.tag",
@@ -426,7 +325,6 @@
 		{
 			"name": "Tag delimiter",
 			"scope": [
-				"punctuation.definition.tag.cs",
 				"punctuation.definition.tag"
 			],
 			"settings": {
@@ -446,6 +344,188 @@
 			],
 			"settings": {
 				"foreground": "#FFBF26"
+			}
+		},
+
+		// Custom values - CSS
+
+		{
+			"name": "Classes (CSS)",
+			"scope": [
+				"entity.other.attribute-name.class.css",
+				"entity.other.attribute-name.class.mixin.css"
+			],
+			"settings": {
+				"foreground": "#12E046",
+				"fontStyle": "None"
+			}
+		},
+		{
+			"name": "Id selector (CSS)",
+			"scope": [
+				"entity.other.attribute-name.id.css"
+			],
+			"settings": {
+				"foreground": "#A7EC21",
+				"fontStyle": "None"
+			}
+		},
+		{
+			"name": "Property names (CSS)",
+			"scope": [
+				"support.type.property-name.css"
+			],
+			"settings": {
+				"foreground": "#0699F0",
+				"fontStyle": "None"
+			}
+		},
+		{
+			"name": "Property values (CSS)",
+			"scope": [
+				"support.constant.property-value.css"
+			],
+			"settings": {
+				"foreground": "#17C6A3",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Pseudo-class (CSS)",
+			"scope": [
+				"entity.other.attribute-name.pseudo-class.css"
+			],
+			"settings": {
+				"foreground": "#FB518C",
+				"fontStyle": "None"
+			}
+		},
+
+		// Custom values - C#
+
+		{
+			"name": "Classes (C#)",
+			"scope": [
+				"storage.type.cs",
+				"storage.type.generic.cs",
+				"storage.type.modifier.cs",
+				"storage.type.variable.cs"
+			],
+			"settings": {
+				"foreground": "#1290C3",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Documentation (C#)",
+			"scope": [
+				"comment.block.documentation.cs"
+			],
+			"settings": {
+				"foreground": "#626262",
+				"fontStyle": "None"
+			}
+		},
+		{
+			"name": "Tag delimiter",
+			"scope": [
+				"punctuation.definition.tag.cs"
+			],
+			"settings": {
+				"foreground": "#0080FF",
+				"fontStyle": "None"
+			}
+		},
+
+		// Custom values - Java
+
+		{
+			"name": "Classes (Java)",
+			"scope": [
+				"storage.type.generic.java",
+				"storage.type.java",
+				"storage.type.object.array.java",
+				"storage.type.primitive.array.java",
+				"storage.type.primitive.java",
+				"storage.type.token.java",
+				"storage.modifier.import.java",
+				"variable.language.wildcard.java",
+				"storage.modifier.package.java"
+			],
+			"settings": {
+				"foreground": "#1290C3",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Documentation (Java)",
+			"scope": [
+				"comment.block.javadoc.java"
+			],
+			"settings": {
+				"foreground": "#626262",
+				"fontStyle": "None"
+			}
+		},
+		{
+			"name": "Documentation tags",
+			"scope": [
+				"keyword.other.documentation.javadoc.java"
+			],
+			"settings": {
+				"foreground": "#9A8C7C",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Fields (Java)",
+			"scope": [
+				"variable.other.definition.java"
+			],
+			"settings": {
+				"foreground": "#66E1F8",
+				"fontStyle": "None"
+			}
+		},
+
+		// Custom values - JavaScript
+
+		{
+			"name": "Functions (JavaScript)",
+			"scope": [
+				"storage.type.function.js"
+			],
+			"settings": {
+				"foreground": "#569CD6",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Keywords (JavaScript)",
+			"scope": [
+				"keyword.js",
+				"keyword.control.js",
+				"storage.type.js",
+				"variable.language.this.js"
+			],
+			"settings": {
+				"foreground": "#569CD6",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Strings (JavaScript)",
+			"scope": [
+				"string.js",
+				"string.tag.js",
+				"string.value.js",
+				"string.regexp.js",
+				"meta.embedded.assembly.js",
+				"meta.preprocessor.string.js"
+			],
+			"settings": {
+				"foreground": "#CE9178",
+				"fontStyle": "None"
 			}
 		},
 
