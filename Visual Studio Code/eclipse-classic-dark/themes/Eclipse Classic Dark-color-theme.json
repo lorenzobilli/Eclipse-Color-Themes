@@ -97,21 +97,7 @@
 				"entity.name.namespace",
 				"entity.other.attribute",
 				"entity.name.scope-resolution",
-				"entity.name.class",
-				"storage.type.numeric.go",
-				"storage.type.byte.go",
-				"storage.type.boolean.go",
-				"storage.type.string.go",
-				"storage.type.uintptr.go",
-				"storage.type.error.go",
-				"storage.type.rune.go",
-				"storage.type.groovy",
-				"storage.type.annotation.groovy",
-				"storage.type.parameters.groovy",
-				"storage.type.generic.groovy",
-				"storage.type.object.array.groovy",
-				"storage.type.primitive.array.groovy",
-				"storage.type.primitive.groovy"
+				"entity.name.class"
 			],
 			"settings": {
 				"foreground": "#1290C3",
@@ -208,7 +194,6 @@
 				"keyword.operator.wordlike",
 				"keyword.operator.noexcept",
 				"keyword.other.unit",
-				"source.cpp keyword.operator.new",
 				"keyword.operator.delete",
 				"keyword.other.using",
 				"keyword.other.operator",
@@ -227,7 +212,6 @@
 			"name": "Macros",
 			"scope": [
 				"entity.name.function.preprocessor",
-				"entity.name.function.preprocessor.cpp"
 			],
 			"settings": {
 				"foreground": "#0DD140",
@@ -347,6 +331,65 @@
 			}
 		},
 
+		// Custom values - C++
+
+		{
+			"name": "Keywords (C++)",
+			"scope": [
+				"source.cpp keyword.operator.new",
+			],
+			"settings": {
+				"foreground": "#DD2867",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Macros",
+			"scope": [
+				"entity.name.function.preprocessor.cpp"
+			],
+			"settings": {
+				"foreground": "#0DD140",
+				"fontStyle": "bold"
+			}
+		},
+		
+		// Custom values - C#
+
+		{
+			"name": "Classes (C#)",
+			"scope": [
+				"storage.type.cs",
+				"storage.type.generic.cs",
+				"storage.type.modifier.cs",
+				"storage.type.variable.cs"
+			],
+			"settings": {
+				"foreground": "#1290C3",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Documentation (C#)",
+			"scope": [
+				"comment.block.documentation.cs"
+			],
+			"settings": {
+				"foreground": "#626262",
+				"fontStyle": "None"
+			}
+		},
+		{
+			"name": "Tag delimiter",
+			"scope": [
+				"punctuation.definition.tag.cs"
+			],
+			"settings": {
+				"foreground": "#0080FF",
+				"fontStyle": "None"
+			}
+		},
+
 		// Custom values - CSS
 
 		{
@@ -401,39 +444,41 @@
 			}
 		},
 
-		// Custom values - C#
+		// Custom values - Go
 
 		{
-			"name": "Classes (C#)",
+			"name": "Classes (Go)",
 			"scope": [
-				"storage.type.cs",
-				"storage.type.generic.cs",
-				"storage.type.modifier.cs",
-				"storage.type.variable.cs"
+				"storage.type.numeric.go",
+				"storage.type.byte.go",
+				"storage.type.boolean.go",
+				"storage.type.string.go",
+				"storage.type.uintptr.go",
+				"storage.type.error.go",
+				"storage.type.rune.go"
 			],
 			"settings": {
 				"foreground": "#1290C3",
 				"fontStyle": "bold"
 			}
 		},
+
+		// Custom values - Groovy
+
 		{
-			"name": "Documentation (C#)",
+			"name": "Classes (Groovy)",
 			"scope": [
-				"comment.block.documentation.cs"
+				"storage.type.groovy",
+				"storage.type.annotation.groovy",
+				"storage.type.parameters.groovy",
+				"storage.type.generic.groovy",
+				"storage.type.object.array.groovy",
+				"storage.type.primitive.array.groovy",
+				"storage.type.primitive.groovy"
 			],
 			"settings": {
-				"foreground": "#626262",
-				"fontStyle": "None"
-			}
-		},
-		{
-			"name": "Tag delimiter",
-			"scope": [
-				"punctuation.definition.tag.cs"
-			],
-			"settings": {
-				"foreground": "#0080FF",
-				"fontStyle": "None"
+				"foreground": "#1290C3",
+				"fontStyle": "bold"
 			}
 		},
 
