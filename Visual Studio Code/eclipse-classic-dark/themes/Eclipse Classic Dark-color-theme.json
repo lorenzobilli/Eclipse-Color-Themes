@@ -57,8 +57,7 @@
 				"invalid.illegal"
 			],
 			"settings": {
-				"foreground": "#F44747",
-				"fontStyle": "None"
+				"foreground": "#F44747"
 			}
 		},
 		{
@@ -86,8 +85,7 @@
 			"name": "Attribute names",
 			"scope": "entity.other.attribute-name",
 			"settings": {
-				"foreground": "#A7EC21",
-				"fontStyle": "None"
+				"foreground": "#A7EC21"
 			}
 		},
 		{
@@ -111,8 +109,7 @@
 			"name": "Comments",
 			"scope": "comment",
 			"settings": {
-				"foreground": "#626262",
-				"fontStyle": "None"
+				"foreground": "#626262"
 			}
 		},
 		{
@@ -122,8 +119,7 @@
 				"constant.other"
 			],
 			"settings": {
-				"foreground": "#66E1F8",
-				"fontStyle": "None"
+				"foreground": "#66E1F8"
 			}
 		},
 		//TODO: Check for other languages support
@@ -132,8 +128,7 @@
 			"scope": [
 			],
 			"settings": {
-				"foreground": "#626262",
-				"fontStyle": "None"
+				"foreground": "#626262"
 			}
 		},
 		//TODO: Check for other languages support
@@ -165,19 +160,26 @@
 				"entity.name.variable.event"
 			],
 			"settings": {
-				"foreground": "#66E1F8",
-				"fontStyle": "None"
+				"foreground": "#66E1F8"
+			}
+		},
+		{
+			"name": "Function declarations",
+			"scope": [
+				"meta.function"
+			],
+			"settings": {
+				"foreground": "#1EB540",
+				"fontStyle": "bold"
 			}
 		},
 		{
 			"name": "Functions",
 			"scope": [
-				"entity.name.function",
-				"support.function"
+				"meta.function-call"
 			],
 			"settings": {
-				"foreground": "#A7EC21",
-				"fontStyle": "None"
+				"foreground": "#A7EC21"
 			}
 		},
 		{
@@ -222,14 +224,32 @@
 			}
 		},
 		{
+			"name": "Method declarations",
+			"scope": [
+				"meta.method.identifier"
+			],
+			"settings": {
+				"foreground": "#1EB540",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Methods",
+			"scope": [
+				"meta.method"
+			],
+			"settings": {
+				"foreground": "#A7EC21"
+			}
+		},
+		{
 			"name": "Numbers",
 			"scope": [
 				"constant.numeric",
 				"meta.preprocessor.numeric"
 			],
 			"settings": {
-				"foreground": "#6897BB",
-				"fontStyle": "None"
+				"foreground": "#6897BB"
 			}
 		},
 		{
@@ -250,8 +270,7 @@
 				"support.other.parenthesis.regexp"
 			],
 			"settings": {
-				"foreground": "#E6E6FA",
-				"fontStyle": "None"
+				"foreground": "#E6E6FA"
 			}
 		},
 		{
@@ -261,8 +280,7 @@
 				"entity.name.variable.parameter"
 			],
 			"settings": {
-				"foreground": "#79ABFF",
-				"fontStyle": "None"
+				"foreground": "#79ABFF"
 			}
 		},
 		{
@@ -294,8 +312,7 @@
 				"constant.regexp"
 			],
 			"settings": {
-				"foreground": "#17C6A3",
-				"fontStyle": "None"
+				"foreground": "#17C6A3"
 			}
 		},
 		{
@@ -315,8 +332,7 @@
 				"punctuation.definition.tag"
 			],
 			"settings": {
-				"foreground": "#0080FF",
-				"fontStyle": "None"
+				"foreground": "#0080FF"
 			}
 		},
 		{
@@ -337,6 +353,26 @@
 		// Custom values - C++
 
 		{
+			"name": "Function declarations (C++)",
+			"scope": [
+				"entity.name.function.definition.cpp"
+			],
+			"settings": {
+				"foreground": "#0DD140",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Functions (C++)",
+			"scope": [
+				"entity.name.function.call.cpp"
+			],
+			"settings": {
+				"foreground": "#A7EC21",
+				"fontStyle": "bold"
+			}
+		},
+		{
 			"name": "Keywords (C++)",
 			"scope": [
 				"source.cpp keyword.operator.new",
@@ -347,13 +383,32 @@
 			}
 		},
 		{
-			"name": "Macros",
+			"name": "Macros (C++)",
 			"scope": [
 				"entity.name.function.preprocessor.cpp"
 			],
 			"settings": {
 				"foreground": "#0DD140",
 				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Method declarations (C++)",
+			"scope": [
+				// Currently not supported
+			],
+			"settings": {
+				"foreground": "#0DD140",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Methods (C++)",
+			"scope": [
+				// Currently not supported
+			],
+			"settings": {
+				"foreground": "#A7EC21"
 			}
 		},
 		
@@ -378,8 +433,25 @@
 				"comment.block.documentation.cs"
 			],
 			"settings": {
-				"foreground": "#626262",
-				"fontStyle": "None"
+				"foreground": "#626262"
+			}
+		},
+		{
+			"name": "Function declarations (C#)",
+			"scope": [
+				"entity.name.function.cs"
+			],
+			"settings": {
+				"foreground": "#1EB540",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Functions (C#)",
+			"scope": [
+			],
+			"settings": {
+				"foreground": "#A7EC21"
 			}
 		},
 		{
@@ -388,8 +460,7 @@
 				"punctuation.definition.tag.cs"
 			],
 			"settings": {
-				"foreground": "#0080FF",
-				"fontStyle": "None"
+				"foreground": "#0080FF"
 			}
 		},
 
@@ -402,8 +473,7 @@
 				"entity.other.attribute-name.class.mixin.css"
 			],
 			"settings": {
-				"foreground": "#12E046",
-				"fontStyle": "None"
+				"foreground": "#12E046"
 			}
 		},
 		{
@@ -412,8 +482,7 @@
 				"entity.other.attribute-name.id.css"
 			],
 			"settings": {
-				"foreground": "#A7EC21",
-				"fontStyle": "None"
+				"foreground": "#A7EC21"
 			}
 		},
 		{
@@ -422,8 +491,7 @@
 				"support.type.property-name.css"
 			],
 			"settings": {
-				"foreground": "#0699F0",
-				"fontStyle": "None"
+				"foreground": "#0699F0"
 			}
 		},
 		{
@@ -442,8 +510,7 @@
 				"entity.other.attribute-name.pseudo-class.css"
 			],
 			"settings": {
-				"foreground": "#FB518C",
-				"fontStyle": "None"
+				"foreground": "#FB518C"
 			}
 		},
 
@@ -511,12 +578,11 @@
 				"comment.block.javadoc.java"
 			],
 			"settings": {
-				"foreground": "#626262",
-				"fontStyle": "None"
+				"foreground": "#626262"
 			}
 		},
 		{
-			"name": "Documentation tags",
+			"name": "Documentation tags (Java)",
 			"scope": [
 				"keyword.other.documentation.javadoc.java"
 			],
@@ -531,8 +597,7 @@
 				"variable.other.definition.java"
 			],
 			"settings": {
-				"foreground": "#66E1F8",
-				"fontStyle": "None"
+				"foreground": "#66E1F8"
 			}
 		},
 
@@ -572,8 +637,7 @@
 				"meta.preprocessor.string.js"
 			],
 			"settings": {
-				"foreground": "#CE9178",
-				"fontStyle": "None"
+				"foreground": "#CE9178"
 			}
 		},
 

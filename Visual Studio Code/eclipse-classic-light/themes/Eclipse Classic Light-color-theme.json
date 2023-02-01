@@ -62,8 +62,7 @@
 				"invalid.illegal"
 			],
 			"settings": {
-				"foreground": "#CD3131",
-				"fontStyle": "None"
+				"foreground": "#CD3131"
 			}
 		},
 		{
@@ -83,16 +82,14 @@
 				"meta.declaration.annotation"
 			],
 			"settings": {
-				"foreground": "#646464",
-				"fontStyle": "None"
+				"foreground": "#646464"
 			}
 		},
 		{
 			"name": "Attribute names",
 			"scope": "entity.other.attribute-name",
 			"settings": {
-				"foreground": "#000000",
-				"fontStyle": "None"
+				"foreground": "#000000"
 			}
 		},
 		{
@@ -108,16 +105,14 @@
 				"entity.name.class"
 			],
 			"settings": {
-				"foreground": "#000000",
-				"fontStyle": "None"
+				"foreground": "#000000"
 			}
 		},
 		{
 			"name": "Comments",
 			"scope": "comment",
 			"settings": {
-				"foreground": "#3F7F5F",
-				"fontStyle": "None"
+				"foreground": "#3F7F5F"
 			}
 		},
 		{
@@ -127,8 +122,7 @@
 				"constant.other"
 			],
 			"settings": {
-				"foreground": "#0000C0",
-				"fontStyle": "None"
+				"foreground": "#0000C0"
 			}
 		},
 		//TODO: Check for other languages support
@@ -137,8 +131,7 @@
 			"scope": [
 			],
 			"settings": {
-				"foreground": "#3F5FBF",
-				"fontStyle": "None"
+				"foreground": "#3F5FBF"
 			}
 		},
 		//TODO: Check for other languages support
@@ -157,8 +150,7 @@
 				"entity.name.type.enum"
 			],
 			"settings": {
-				"foreground": "#000000",
-				"fontStyle": "None"
+				"foreground": "#000000"
 			}
 		},
 		{
@@ -170,19 +162,25 @@
 				"entity.name.variable.event"
 			],
 			"settings": {
-				"foreground": "#0000C0",
-				"fontStyle": "None"
+				"foreground": "#0000C0"
+			}
+		},
+		{
+			"name": "Function declarations",
+			"scope": [
+				"meta.function"
+			],
+			"settings": {
+				"foreground": "#000000"
 			}
 		},
 		{
 			"name": "Functions",
 			"scope": [
-				"entity.name.function",
-				"support.function"
+				"meta.function-call"
 			],
 			"settings": {
-				"foreground": "#000000",
-				"fontStyle": "None"
+				"foreground": "#000000"
 			}
 		},
 		{
@@ -219,11 +217,28 @@
 		{
 			"name": "Macros",
 			"scope": [
-				"entity.name.function.preprocessor",
+				"entity.name.function.preprocessor"
 			],
 			"settings": {
-				"foreground": "#000000",
-				"fontStyle": "None"
+				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "Method declarations",
+			"scope": [
+				"meta.method.identifier"
+			],
+			"settings": {
+				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "Methods",
+			"scope": [
+				"meta.method"
+			],
+			"settings": {
+				"foreground": "#000000"
 			}
 		},
 		{
@@ -254,8 +269,7 @@
 				"support.other.parenthesis.regexp"
 			],
 			"settings": {
-				"foreground": "#000000",
-				"fontStyle": "None"
+				"foreground": "#000000"
 			}
 		},
 		{
@@ -265,8 +279,7 @@
 				"entity.name.variable.parameter"
 			],
 			"settings": {
-				"foreground": "#000000",
-				"fontStyle": "None"
+				"foreground": "#000000"
 			}
 		},
 		{
@@ -298,8 +311,7 @@
 				"constant.regexp"
 			],
 			"settings": {
-				"foreground": "#2A00FF",
-				"fontStyle": "None"
+				"foreground": "#2A00FF"
 			}
 		},
 		{
@@ -309,8 +321,7 @@
 				"entity.name.tag.localname",
 			],
 			"settings": {
-				"foreground": "#3F7F7F",
-				"fontStyle": "None"
+				"foreground": "#3F7F7F"
 			}
 		},
 		{
@@ -319,8 +330,7 @@
 				"punctuation.definition.tag"
 			],
 			"settings": {
-				"foreground": "#008080",
-				"fontStyle": "None"
+				"foreground": "#008080"
 			}
 		},
 		{
@@ -334,13 +344,32 @@
 				"constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#6A3E3E",
-				"fontStyle": "None"
+				"foreground": "#6A3E3E"
 			}
 		},
 
 		// Custom values - C++
 
+		{
+			"name": "Function declarations",
+			"scope": [
+				"entity.name.function.definition.cpp"
+			],
+			"settings": {
+				"foreground": "#000000",
+				"fontStyle": "bold"
+
+			}
+		},
+		{
+			"name": "Functions",
+			"scope": [
+				"entity.name.function.call.cpp"
+			],
+			"settings": {
+				"foreground": "#000000"
+			}
+		},
 		{
 			"name": "Keywords",
 			"scope": [
@@ -357,8 +386,26 @@
 				"entity.name.function.preprocessor.cpp"
 			],
 			"settings": {
+				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "Method declarations",
+			"scope": [
+				"meta.method.identifier"
+			],
+			"settings": {
 				"foreground": "#000000",
-				"fontStyle": "None"
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Methods",
+			"scope": [
+				"meta.method"
+			],
+			"settings": {
+				"foreground": "#000000"
 			}
 		},
 
@@ -373,8 +420,7 @@
 				"storage.type.variable.cs"
 			],
 			"settings": {
-				"foreground": "#000000",
-				"fontStyle": "None"
+				"foreground": "#000000"
 			}
 		},
 		{
@@ -383,8 +429,24 @@
 				"comment.block.documentation.cs"
 			],
 			"settings": {
-				"foreground": "#3F5FBF",
-				"fontStyle": "None"
+				"foreground": "#3F5FBF"
+			}
+		},
+		{
+			"name": "Function declarations (C#)",
+			"scope": [
+				"entity.name.function.cs"
+			],
+			"settings": {
+				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "Functions (C#)",
+			"scope": [
+			],
+			"settings": {
+				"foreground": "#000000"
 			}
 		},
 		{
@@ -393,8 +455,7 @@
 				"punctuation.definition.tag.cs"
 			],
 			"settings": {
-				"foreground": "#008080",
-				"fontStyle": "None"
+				"foreground": "#008080"
 			}
 		},
 
@@ -427,8 +488,7 @@
 				"support.type.property-name.css"
 			],
 			"settings": {
-				"foreground": "#7F007F",
-				"fontStyle": "None"
+				"foreground": "#7F007F"
 			}
 		},
 		{
@@ -466,8 +526,7 @@
 				"storage.type.rune.go"
 			],
 			"settings": {
-				"foreground": "#000000",
-				"fontStyle": "None"
+				"foreground": "#000000"
 			}
 		},
 
@@ -485,8 +544,7 @@
 				"storage.type.primitive.groovy"
 			],
 			"settings": {
-				"foreground": "#000000",
-				"fontStyle": "None"
+				"foreground": "#000000"
 			}
 		},
 
@@ -506,8 +564,7 @@
 				"storage.modifier.package.java"
 			],
 			"settings": {
-				"foreground": "#000000",
-				"fontStyle": "None"
+				"foreground": "#000000"
 			}
 		},
 		{
@@ -516,8 +573,7 @@
 				"comment.block.javadoc.java"
 			],
 			"settings": {
-				"foreground": "#3F5FBF",
-				"fontStyle": "None"
+				"foreground": "#3F5FBF"
 			}
 		},
 		{
@@ -536,8 +592,7 @@
 				"variable.other.definition.java"
 			],
 			"settings": {
-				"foreground": "#0000C0",
-				"fontStyle": "None"
+				"foreground": "#0000C0"
 			}
 		},
 
@@ -549,8 +604,7 @@
 				"storage.type.function.js"
 			],
 			"settings": {
-				"foreground": "#000000",
-				"fontStyle": "None"
+				"foreground": "#000000"
 			}
 		},
 		{
@@ -577,8 +631,7 @@
 				"meta.preprocessor.string.js"
 			],
 			"settings": {
-				"foreground": "#2A00FF",
-				"fontStyle": "None"
+				"foreground": "#2A00FF"
 			}
 		},
 
