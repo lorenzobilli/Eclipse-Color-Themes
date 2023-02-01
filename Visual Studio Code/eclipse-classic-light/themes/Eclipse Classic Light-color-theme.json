@@ -7,6 +7,9 @@
 
 		"editor.background": "#ffffff",
 		"editor.foreground": "#000000",
+		"activityBar.background": "#dddddd",
+		"activityBar.inactiveForeground": "#383838",
+		"activityBar.foreground": "#000000",
 
 		// Default values
 
