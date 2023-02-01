@@ -57,7 +57,8 @@
 				"invalid.illegal"
 			],
 			"settings": {
-				"foreground": "#F44747"
+				"foreground": "#F44747",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -74,7 +75,8 @@
 			"name": "Annotations",
 			"scope": [
 				"storage.type.annotation",
-				"meta.declaration.annotation"
+				"meta.declaration.annotation",
+				"meta.function.decorator"
 			],
 			"settings": {
 				"foreground": "#FF9393",
@@ -85,7 +87,8 @@
 			"name": "Attribute names",
 			"scope": "entity.other.attribute-name",
 			"settings": {
-				"foreground": "#A7EC21"
+				"foreground": "#A7EC21",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -109,7 +112,8 @@
 			"name": "Comments",
 			"scope": "comment",
 			"settings": {
-				"foreground": "#626262"
+				"foreground": "#626262",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -119,7 +123,8 @@
 				"constant.other"
 			],
 			"settings": {
-				"foreground": "#66E1F8"
+				"foreground": "#66E1F8",
+				"fontStyle": ""
 			}
 		},
 		//TODO: Check for other languages support
@@ -128,7 +133,8 @@
 			"scope": [
 			],
 			"settings": {
-				"foreground": "#626262"
+				"foreground": "#626262",
+				"fontStyle": ""
 			}
 		},
 		//TODO: Check for other languages support
@@ -160,7 +166,8 @@
 				"entity.name.variable.event"
 			],
 			"settings": {
-				"foreground": "#66E1F8"
+				"foreground": "#66E1F8",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -179,7 +186,8 @@
 				"meta.function-call"
 			],
 			"settings": {
-				"foreground": "#A7EC21"
+				"foreground": "#A7EC21",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -239,7 +247,8 @@
 				"meta.method"
 			],
 			"settings": {
-				"foreground": "#A7EC21"
+				"foreground": "#A7EC21",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -249,7 +258,8 @@
 				"meta.preprocessor.numeric"
 			],
 			"settings": {
-				"foreground": "#6897BB"
+				"foreground": "#6897BB",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -270,7 +280,8 @@
 				"support.other.parenthesis.regexp"
 			],
 			"settings": {
-				"foreground": "#E6E6FA"
+				"foreground": "#E6E6FA",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -280,7 +291,18 @@
 				"entity.name.variable.parameter"
 			],
 			"settings": {
-				"foreground": "#79ABFF"
+				"foreground": "#79ABFF",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Static fields",
+			"scope": [
+				// Currently not supported
+			],
+			"settings": {
+				"foreground": "#8DDAF8",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -293,6 +315,9 @@
 				"foreground": "#8DDAF8",
 				"fontStyle": "italic bold"
 			}
+		},
+		{
+
 		},
 		{
 			"name": "Strings",
@@ -312,7 +337,8 @@
 				"constant.regexp"
 			],
 			"settings": {
-				"foreground": "#17C6A3"
+				"foreground": "#17C6A3",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -332,28 +358,41 @@
 				"punctuation.definition.tag"
 			],
 			"settings": {
-				"foreground": "#0080FF"
+				"foreground": "#0080FF",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Variable declarations",
+			"scope": [
+				// Currently not supported
+			],
+			"settings": {
+				"foreground": "#ED7F48",
+				"fontStyle": ""
 			}
 		},
 		{
 			"name": "Variables",
 			"scope": [
-				"variable",
-				"variable.language",
-				"meta.definition.variable.name",
-				"support.variable",
-				"entity.name.variable",
-				"constant.other.placeholder"
+				// "variable",
+				// "variable.language",
+				// "meta.definition.variable.name",
+				// "support.variable",
+				// "entity.name.variable",
+				// "constant.other.placeholder"
+				"meta.definition.variable"
 			],
 			"settings": {
-				"foreground": "#FFBF26"
+				"foreground": "#FFBF26",
+				"fontStyle": ""
 			}
 		},
 
-		// Custom values - C++
+		// Custom values - C/C++
 
 		{
-			"name": "Function declarations (C++)",
+			"name": "Function declarations (C/C++)",
 			"scope": [
 				"entity.name.function.definition.cpp"
 			],
@@ -363,7 +402,7 @@
 			}
 		},
 		{
-			"name": "Functions (C++)",
+			"name": "Functions (C/C++)",
 			"scope": [
 				"entity.name.function.call.cpp"
 			],
@@ -373,7 +412,7 @@
 			}
 		},
 		{
-			"name": "Keywords (C++)",
+			"name": "Keywords (C/C++)",
 			"scope": [
 				"source.cpp keyword.operator.new",
 			],
@@ -383,7 +422,7 @@
 			}
 		},
 		{
-			"name": "Macros (C++)",
+			"name": "Macros (C/C++)",
 			"scope": [
 				"entity.name.function.preprocessor.cpp"
 			],
@@ -393,7 +432,7 @@
 			}
 		},
 		{
-			"name": "Method declarations (C++)",
+			"name": "Method declarations (C/C++)",
 			"scope": [
 				// Currently not supported
 			],
@@ -403,12 +442,34 @@
 			}
 		},
 		{
-			"name": "Methods (C++)",
+			"name": "Methods (C/C++)",
 			"scope": [
 				// Currently not supported
 			],
 			"settings": {
-				"foreground": "#A7EC21"
+				"foreground": "#A7EC21",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Variable declarations (C/C++)",
+			"scope": [
+				// Currently not supported
+			],
+			"settings": {
+				"foreground": "#ED7F48",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Variables (C/C++)",
+			"scope": [
+				"meta.block.c",
+				"meta.body.function.definition.cpp"
+			],
+			"settings": {
+				"foreground": "#FFBF26",
+				"fontStyle": ""
 			}
 		},
 		
@@ -433,7 +494,8 @@
 				"comment.block.documentation.cs"
 			],
 			"settings": {
-				"foreground": "#626262"
+				"foreground": "#626262",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -451,7 +513,8 @@
 			"scope": [
 			],
 			"settings": {
-				"foreground": "#A7EC21"
+				"foreground": "#A7EC21",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -460,7 +523,8 @@
 				"punctuation.definition.tag.cs"
 			],
 			"settings": {
-				"foreground": "#0080FF"
+				"foreground": "#0080FF",
+				"fontStyle": ""
 			}
 		},
 
@@ -473,7 +537,8 @@
 				"entity.other.attribute-name.class.mixin.css"
 			],
 			"settings": {
-				"foreground": "#12E046"
+				"foreground": "#12E046",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -482,7 +547,8 @@
 				"entity.other.attribute-name.id.css"
 			],
 			"settings": {
-				"foreground": "#A7EC21"
+				"foreground": "#A7EC21",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -491,7 +557,8 @@
 				"support.type.property-name.css"
 			],
 			"settings": {
-				"foreground": "#0699F0"
+				"foreground": "#0699F0",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -510,7 +577,8 @@
 				"entity.other.attribute-name.pseudo-class.css"
 			],
 			"settings": {
-				"foreground": "#FB518C"
+				"foreground": "#FB518C",
+				"fontStyle": ""
 			}
 		},
 
@@ -578,7 +646,8 @@
 				"comment.block.javadoc.java"
 			],
 			"settings": {
-				"foreground": "#626262"
+				"foreground": "#626262",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -594,10 +663,11 @@
 		{
 			"name": "Fields (Java)",
 			"scope": [
-				"variable.other.definition.java"
+				//"variable.other.definition.java"
 			],
 			"settings": {
-				"foreground": "#66E1F8"
+				"foreground": "#66E1F8",
+				"fontStyle": ""
 			}
 		},
 
@@ -637,7 +707,30 @@
 				"meta.preprocessor.string.js"
 			],
 			"settings": {
-				"foreground": "#CE9178"
+				"foreground": "#CE9178",
+				"fontStyle": ""
+			}
+		},
+
+		// Custom values - Python
+		{
+			"name": "Variable declarations (Python)",
+			"scope": [
+				// Currently not supported
+			],
+			"settings": {
+				"foreground": "#ED7F48",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Variables (Python)",
+			"scope": [
+				"source.python"
+			],
+			"settings": {
+				"foreground": "#FFBF26",
+				"fontStyle": ""
 			}
 		},
 

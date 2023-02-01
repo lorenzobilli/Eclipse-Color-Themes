@@ -62,7 +62,8 @@
 				"invalid.illegal"
 			],
 			"settings": {
-				"foreground": "#CD3131"
+				"foreground": "#CD3131",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -79,17 +80,20 @@
 			"name": "Annotations",
 			"scope": [
 				"storage.type.annotation",
-				"meta.declaration.annotation"
+				"meta.declaration.annotation",
+				"meta.function.decorator"
 			],
 			"settings": {
-				"foreground": "#646464"
+				"foreground": "#646464",
+				"fontStyle": ""
 			}
 		},
 		{
 			"name": "Attribute names",
 			"scope": "entity.other.attribute-name",
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#000000",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -105,14 +109,16 @@
 				"entity.name.class"
 			],
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#000000",
+				"fontStyle": ""
 			}
 		},
 		{
 			"name": "Comments",
 			"scope": "comment",
 			"settings": {
-				"foreground": "#3F7F5F"
+				"foreground": "#3F7F5F",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -122,7 +128,8 @@
 				"constant.other"
 			],
 			"settings": {
-				"foreground": "#0000C0"
+				"foreground": "#0000C0",
+				"fontStyle": ""
 			}
 		},
 		//TODO: Check for other languages support
@@ -131,7 +138,8 @@
 			"scope": [
 			],
 			"settings": {
-				"foreground": "#3F5FBF"
+				"foreground": "#3F5FBF",
+				"fontStyle": ""
 			}
 		},
 		//TODO: Check for other languages support
@@ -150,7 +158,8 @@
 				"entity.name.type.enum"
 			],
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#000000",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -162,7 +171,8 @@
 				"entity.name.variable.event"
 			],
 			"settings": {
-				"foreground": "#0000C0"
+				"foreground": "#0000C0",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -171,7 +181,8 @@
 				"meta.function"
 			],
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#000000",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -180,7 +191,8 @@
 				"meta.function-call"
 			],
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#000000",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -220,7 +232,8 @@
 				"entity.name.function.preprocessor"
 			],
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#000000",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -229,7 +242,8 @@
 				"meta.method.identifier"
 			],
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#000000",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -238,7 +252,8 @@
 				"meta.method"
 			],
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#000000",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -248,7 +263,8 @@
 				"meta.preprocessor.numeric"
 			],
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#000000",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -269,7 +285,8 @@
 				"support.other.parenthesis.regexp"
 			],
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#000000",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -279,7 +296,8 @@
 				"entity.name.variable.parameter"
 			],
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#000000",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -311,7 +329,8 @@
 				"constant.regexp"
 			],
 			"settings": {
-				"foreground": "#2A00FF"
+				"foreground": "#2A00FF",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -321,7 +340,8 @@
 				"entity.name.tag.localname",
 			],
 			"settings": {
-				"foreground": "#3F7F7F"
+				"foreground": "#3F7F7F",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -330,48 +350,61 @@
 				"punctuation.definition.tag"
 			],
 			"settings": {
-				"foreground": "#008080"
+				"foreground": "#008080",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Variable declarations",
+			"scope": [
+				// Currently not supported
+			],
+			"settings": {
+				"foreground": "#6A3E3E",
+				"fontStyle": ""
 			}
 		},
 		{
 			"name": "Variables",
 			"scope": [
-				"variable",
-				"variable.language",
-				"meta.definition.variable.name",
-				"support.variable",
-				"entity.name.variable",
-				"constant.other.placeholder"
+				// "variable",
+				// "variable.language",
+				// "meta.definition.variable.name",
+				// "support.variable",
+				// "entity.name.variable",
+				// "constant.other.placeholder"
+				"meta.definition.variable"
 			],
 			"settings": {
-				"foreground": "#6A3E3E"
+				"foreground": "#6A3E3E",
+				"fontStyle": ""
 			}
 		},
 
-		// Custom values - C++
+		// Custom values - C/C++
 
 		{
-			"name": "Function declarations",
+			"name": "Function declarations (C/C++)",
 			"scope": [
 				"entity.name.function.definition.cpp"
 			],
 			"settings": {
 				"foreground": "#000000",
 				"fontStyle": "bold"
-
 			}
 		},
 		{
-			"name": "Functions",
+			"name": "Functions (C/C++)",
 			"scope": [
 				"entity.name.function.call.cpp"
 			],
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#000000",
+				"fontStyle": ""
 			}
 		},
 		{
-			"name": "Keywords",
+			"name": "Keywords (C/C++)",
 			"scope": [
 				"source.cpp keyword.operator.new"
 			],
@@ -381,16 +414,17 @@
 			}
 		},
 		{
-			"name": "Macros",
+			"name": "Macros (C/C++)",
 			"scope": [
 				"entity.name.function.preprocessor.cpp"
 			],
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#000000",
+				"fontStyle": ""
 			}
 		},
 		{
-			"name": "Method declarations",
+			"name": "Method declarations (C/C++)",
 			"scope": [
 				"meta.method.identifier"
 			],
@@ -400,12 +434,23 @@
 			}
 		},
 		{
-			"name": "Methods",
+			"name": "Methods (C/C++)",
 			"scope": [
 				"meta.method"
 			],
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#000000",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Static fields (C/C++)",
+			"scope": [
+				// Currently not supported
+			],
+			"settings": {
+				"foreground": "#0000C0",
+				"fontStyle": "italic"
 			}
 		},
 
@@ -420,7 +465,8 @@
 				"storage.type.variable.cs"
 			],
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#000000",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -429,7 +475,8 @@
 				"comment.block.documentation.cs"
 			],
 			"settings": {
-				"foreground": "#3F5FBF"
+				"foreground": "#3F5FBF",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -438,7 +485,8 @@
 				"entity.name.function.cs"
 			],
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#000000",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -446,7 +494,8 @@
 			"scope": [
 			],
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#000000",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -455,7 +504,8 @@
 				"punctuation.definition.tag.cs"
 			],
 			"settings": {
-				"foreground": "#008080"
+				"foreground": "#008080",
+				"fontStyle": ""
 			}
 		},
 
@@ -488,7 +538,8 @@
 				"support.type.property-name.css"
 			],
 			"settings": {
-				"foreground": "#7F007F"
+				"foreground": "#7F007F",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -526,7 +577,8 @@
 				"storage.type.rune.go"
 			],
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#000000",
+				"fontStyle": ""
 			}
 		},
 
@@ -544,7 +596,8 @@
 				"storage.type.primitive.groovy"
 			],
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#000000",
+				"fontStyle": ""
 			}
 		},
 
@@ -564,7 +617,8 @@
 				"storage.modifier.package.java"
 			],
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#000000",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -573,7 +627,8 @@
 				"comment.block.javadoc.java"
 			],
 			"settings": {
-				"foreground": "#3F5FBF"
+				"foreground": "#3F5FBF",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -592,7 +647,8 @@
 				"variable.other.definition.java"
 			],
 			"settings": {
-				"foreground": "#0000C0"
+				"foreground": "#0000C0",
+				"fontStyle": ""
 			}
 		},
 
@@ -604,7 +660,8 @@
 				"storage.type.function.js"
 			],
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#000000",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -631,7 +688,8 @@
 				"meta.preprocessor.string.js"
 			],
 			"settings": {
-				"foreground": "#2A00FF"
+				"foreground": "#2A00FF",
+				"fontStyle": ""
 			}
 		},
 
