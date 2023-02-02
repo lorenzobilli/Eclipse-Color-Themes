@@ -77,6 +77,16 @@
 		// Custom values - All programming languages
 
 		{
+			"name": "Abstract classes",
+			"scope": [
+				// Currently not supported
+			],
+			"settings": {
+				"foreground": "#000000",
+				"fontStyle": ""
+			}
+		},
+		{
 			"name": "Annotations",
 			"scope": [
 				"storage.type.annotation",
@@ -309,6 +319,16 @@
 			"settings": {
 				"foreground": "#0000C0",
 				"fontStyle": "italic bold"
+			}
+		},
+		{
+			"name": "Static method invocations",
+			"scope": [
+				// Currently not supported
+			],
+			"settings": {
+				"foreground": "#000000",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -614,7 +634,8 @@
 				"storage.type.token.java",
 				"storage.modifier.import.java",
 				"variable.language.wildcard.java",
-				"storage.modifier.package.java"
+				"storage.modifier.package.java",
+				"entity.other.inherited-class.java"
 			],
 			"settings": {
 				"foreground": "#000000",
@@ -689,6 +710,81 @@
 			],
 			"settings": {
 				"foreground": "#2A00FF",
+				"fontStyle": ""
+			}
+		},
+
+		// Custom values - Python
+
+		{
+			"name": "Abstract classes (Python)",
+			"scope": [
+				"entity.other.inherited-class.python"	// Not actually an abstract class
+			],
+			"settings": {
+				"foreground": "#000000",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Enums (Python)",
+			"scope": [
+				"support.function.magic.python"			// Not actually an enum
+			],
+			"settings": {
+				"foreground": "#000000",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Fields (Python)",
+			"scope": [
+				"meta.member.access.python"
+			],
+			"settings": {
+				"foreground": "#0000C0",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Keywords (Python)",
+			"scope": [
+				"variable.language.special.self.python",
+				"variable.parameter.function.language.special.self.python"
+			],
+			"settings": {
+				"foreground": "#7F0055",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Static method invocations (Python)",
+			"scope": [
+				"support.function.builtin.python"
+			],
+			"settings": {
+				"foreground": "#000000",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Parameters (Python)",
+			"scope": [
+				"variable.parameter.function.language.python",
+				"meta.function-call.arguments.python"
+			],
+			"settings": {
+				"foreground": "#000000",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Variables (Python)",
+			"scope": [
+				"source.python"
+			],
+			"settings": {
+				"foreground": "#6A3E3E",
 				"fontStyle": ""
 			}
 		},
