@@ -410,6 +410,16 @@
 		// Custom values - C/C++
 
 		{
+			"name": "Fields (C/C++)",
+			"scope": [
+				"meta.body.class"
+			],
+			"settings": {
+				"foreground": "#66E1F8",
+				"fontStyle": ""
+			}
+		},
+		{
 			"name": "Function declarations (C/C++)",
 			"scope": [
 				"entity.name.function.definition.cpp"
@@ -466,6 +476,16 @@
 			],
 			"settings": {
 				"foreground": "#A7EC21",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Operators (C/C++)",
+			"scope": [
+				"punctuation.separator.scope-resolution.cpp"
+			],
+			"settings": {
+				"foreground": "#E6E6FA",
 				"fontStyle": ""
 			}
 		},
