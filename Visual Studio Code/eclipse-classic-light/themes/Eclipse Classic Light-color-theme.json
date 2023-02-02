@@ -135,27 +135,39 @@
 			"name": "Constants",
 			"scope": [
 				"constant.language",
-				"constant.other"
+				"constant.other",
+				"constant.other.enum",
+				"variable.other.enummember"
 			],
 			"settings": {
 				"foreground": "#0000C0",
-				"fontStyle": ""
+				"fontStyle": "italic bold"
 			}
 		},
-		//TODO: Check for other languages support
 		{
 			"name": "Documentation",
 			"scope": [
+				// Currently not supported
 			],
 			"settings": {
 				"foreground": "#3F5FBF",
 				"fontStyle": ""
 			}
 		},
-		//TODO: Check for other languages support
+		{
+			"name": "Documentation HTML Markup",
+			"scope": [
+				// Currently not supported
+			],
+			"settings": {
+				"foreground": "#7F7F9F",
+				"fontStyle": ""
+			}
+		},
 		{
 			"name": "Documentation tags",
 			"scope": [
+				// Currently not supported
 			],
 			"settings": {
 				"foreground": "#7F9FBF",
@@ -308,17 +320,6 @@
 			"settings": {
 				"foreground": "#000000",
 				"fontStyle": ""
-			}
-		},
-		{
-			"name": "Static final fields",
-			"scope": [
-				"constant.other.enum",
-				"variable.other.enummember"
-			],
-			"settings": {
-				"foreground": "#0000C0",
-				"fontStyle": "italic bold"
 			}
 		},
 		{
@@ -490,12 +491,33 @@
 			}
 		},
 		{
+			"name": "Constants (C#)",
+			"scope": [
+				"entity.name.variable.enum-member.cs"
+			],
+			"settings": {
+				"foreground": "#0000C0",
+				"fontStyle": "italic bold"
+			}
+		},
+		{
 			"name": "Documentation (C#)",
 			"scope": [
 				"comment.block.documentation.cs"
 			],
 			"settings": {
 				"foreground": "#3F5FBF",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Documentation HTML Markup (C#)",
+			"scope": [
+				"punctuation.definition.tag.cs",
+				"entity.name.tag.localname.cs"
+			],
+			"settings": {
+				"foreground": "#7F7F9F",
 				"fontStyle": ""
 			}
 		},
@@ -519,12 +541,23 @@
 			}
 		},
 		{
-			"name": "Tag delimiter (C#)",
+			"name": "Variable declarations (C#)",
 			"scope": [
-				"punctuation.definition.tag.cs"
+				"entity.name.variable.local.cs"
 			],
 			"settings": {
-				"foreground": "#008080",
+				"foreground": "#6A3E3E",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Variables (C#)",
+			"scope": [
+				"variable.other.readwrite.cs",
+				"variable.other.object.cs"
+			],
+			"settings": {
+				"foreground": "#6A3E3E",
 				"fontStyle": ""
 			}
 		},
@@ -649,6 +682,16 @@
 			],
 			"settings": {
 				"foreground": "#3F5FBF",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Documentation HTML Markup (Java)",
+			"scope": [
+				// Currently not supported
+			],
+			"settings": {
+				"foreground": "#7F7F9F",
 				"fontStyle": ""
 			}
 		},
