@@ -188,6 +188,7 @@
 			"name": "Fields",
 			"scope": [
 				"variable.other.object.property",
+				"variable.other.property",
 				"entity.name.variable.field",
 				"entity.name.variable.property",
 				"entity.name.variable.event"
@@ -241,7 +242,8 @@
 				"storage",
 				"storage.modifier",
 				"storage.type",
-				"meta.preprocessor"
+				"meta.preprocessor",
+				"variable.language.this"
 			],
 			"settings": {
 				"foreground": "#7F0055",
@@ -298,6 +300,10 @@
 				"keyword.operator.or.regexp",
 				"keyword.control.anchor.regexp",
 				"keyword.operator.quantifier.regexp",
+				"punctuation.separator.comma",
+				"punctuation.separator.key-value",
+				"punctuation.definition.section.case-statement",
+				"punctuation.terminator.statement",
 				"punctuation.definition.group.regexp",
 				"punctuation.definition.group.assertion.regexp",
 				"punctuation.definition.character-class.regexp",
@@ -372,6 +378,26 @@
 			],
 			"settings": {
 				"foreground": "#008080",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Type arguments",
+			"scope": [
+				// Currently not supported
+			],
+			"settings": {
+				"foreground": "#000000",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Type variables",
+			"scope": [
+				// Currently not supported
+			],
+			"settings": {
+				"foreground": "#000000",
 				"fontStyle": ""
 			}
 		},
@@ -728,7 +754,7 @@
 		{
 			"name": "Fields (Java)",
 			"scope": [
-				"variable.other.definition.java"
+				//"variable.other.definition.java"
 			],
 			"settings": {
 				"foreground": "#0000C0",
@@ -736,12 +762,24 @@
 			}
 		},
 
-		// Custom values - JavaScript
+		// Custom values - JavaScript/TypeScript
 
 		{
-			"name": "Functions (JavaScript)",
+			"name": "Annotations (JavaScript/TypeScript)",
 			"scope": [
-				"storage.type.function.js"
+				"meta.decorator.ts"
+			],
+			"settings": {
+				"foreground": "#646464",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Classes (JavaScript/TypeScript)",
+			"scope": [
+				"variable.other.object.js",
+				"variable.other.object.ts",
+				"variable.other.readwrite.alias.ts"
 			],
 			"settings": {
 				"foreground": "#000000",
@@ -749,30 +787,91 @@
 			}
 		},
 		{
-			"name": "Keywords (JavaScript)",
+			"name": "Constants (JavaScript/TypeScript)",
 			"scope": [
-				"keyword.js",
-				"keyword.control.js",
-				"storage.type.js",
-				"variable.language.this.js"
+				"variable.other.constant.js",
+				"variable.other.constant.ts"
 			],
 			"settings": {
-				"foreground": "#7F0055",
+				"foreground": "#0000C0",
+				"fontStyle": "italic bold"
+			}
+		},
+		{
+			"name": "Fields (JavaScript/TypeScript)",
+			"scope": [
+				"support.variable.property.js",
+				"variable.object.property.ts"
+			],
+			"settings": {
+				"foreground": "#0000C0",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Keywords (JavaScript/TypeScript)",
+			"scope": [
+				"constant.language.boolean.true.js",
+				"constant.language.boolean.false.js",
+			],
+			"settings": {
+				"foreground": "#DD2867",
 				"fontStyle": "bold"
 			}
 		},
 		{
-			"name": "Strings (JavaScript)",
+			"name": "Method declarations (JavaScript/TypeScript)",
 			"scope": [
-				"string.js",
-				"string.tag.js",
-				"string.value.js",
-				"string.regexp.js",
-				"meta.embedded.assembly.js",
-				"meta.preprocessor.string.js"
+				"meta.definition.method.js",
+				"meta.definition.method.ts"
 			],
 			"settings": {
-				"foreground": "#2A00FF",
+				"foreground": "#000000",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Operators (JavaScript/TypeScript)",
+			"scope": [
+				"storage.type.function.arrow"
+			],
+			"settings": {
+				"foreground": "#000000",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Type arguments",
+			"scope": [
+				"meta.object-literal.key.js",
+				"meta.object-literal.key.ts"
+			],
+			"settings": {
+				"foreground": "#000000",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Variable declarations (JavaScript/TypeScript)",
+			"scope": [
+				"meta.definition.variable.js",
+				"meta.definition.variable.ts"
+			],
+			"settings": {
+				"foreground": "#6A3E3E",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Variables (JavaScript/TypeScript)",
+			"scope": [
+				"meta.block.js",
+				"source.js",
+				"meta.block.ts",
+				"source.ts"
+			],
+			"settings": {
+				"foreground": "#6A3E3E",
 				"fontStyle": ""
 			}
 		},

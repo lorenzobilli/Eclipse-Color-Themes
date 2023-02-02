@@ -183,6 +183,7 @@
 			"name": "Fields",
 			"scope": [
 				"variable.other.object.property",
+				"variable.other.property",
 				"entity.name.variable.field",
 				"entity.name.variable.property",
 				"entity.name.variable.event"
@@ -236,7 +237,8 @@
 				"storage",
 				"storage.modifier",
 				"storage.type",
-				"meta.preprocessor"
+				"meta.preprocessor",
+				"variable.language.this"
 			],
 			"settings": {
 				"foreground": "#DD2867",
@@ -293,6 +295,10 @@
 				"keyword.operator.or.regexp",
 				"keyword.control.anchor.regexp",
 				"keyword.operator.quantifier.regexp",
+				"punctuation.separator.comma",
+				"punctuation.separator.key-value",
+				"punctuation.definition.section.case-statement",
+				"punctuation.terminator.statement",
 				"punctuation.definition.group.regexp",
 				"punctuation.definition.group.assertion.regexp",
 				"punctuation.definition.character-class.regexp",
@@ -381,6 +387,26 @@
 			}
 		},
 		{
+			"name": "Type arguments",
+			"scope": [
+				// Currently not supported
+			],
+			"settings": {
+				"foreground": "#D7837F",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Type variables",
+			"scope": [
+				// Currently not supported
+			],
+			"settings": {
+				"foreground": "#BFA4A4",
+				"fontStyle": "bold"
+			}
+		},
+		{
 			"name": "Variable declarations",
 			"scope": [
 				// Currently not supported
@@ -393,12 +419,6 @@
 		{
 			"name": "Variables",
 			"scope": [
-				// "variable",
-				// "variable.language",
-				// "meta.definition.variable.name",
-				// "support.variable",
-				// "entity.name.variable",
-				// "constant.other.placeholder"
 				"meta.definition.variable"
 			],
 			"settings": {
@@ -752,43 +772,116 @@
 			}
 		},
 
-		// Custom values - JavaScript
+		// Custom values - JavaScript/TypeScript
 
 		{
-			"name": "Functions (JavaScript)",
+			"name": "Annotations (JavaScript/TypeScript)",
 			"scope": [
-				"storage.type.function.js"
+				"meta.decorator.ts"
 			],
 			"settings": {
-				"foreground": "#569CD6",
+				"foreground": "#FF9393",
+				"fontStyle": "italic bold"
+			}
+		},
+		{
+			"name": "Classes (JavaScript/TypeScript)",
+			"scope": [
+				"variable.other.object.js",
+				"variable.other.object.ts",
+				"variable.other.readwrite.alias.ts"
+			],
+			"settings": {
+				"foreground": "#1290C3",
 				"fontStyle": "bold"
 			}
 		},
 		{
-			"name": "Keywords (JavaScript)",
+			"name": "Constants (JavaScript/TypeScript)",
 			"scope": [
-				"keyword.js",
-				"keyword.control.js",
-				"storage.type.js",
-				"variable.language.this.js"
+				"variable.other.constant.js",
+				"variable.other.constant.ts"
 			],
 			"settings": {
-				"foreground": "#569CD6",
+				"foreground": "#8DDAF8",
+				"fontStyle": "italic bold"
+			}
+		},
+		{
+			"name": "Fields (JavaScript/TypeScript)",
+			"scope": [
+				"support.variable.property.js",
+				"variable.object.property.ts"
+			],
+			"settings": {
+				"foreground": "#66E1F8",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Keywords (JavaScript/TypeScript)",
+			"scope": [
+				"constant.language.boolean.true.js",
+				"constant.language.boolean.false.js",
+			],
+			"settings": {
+				"foreground": "#DD2867",
 				"fontStyle": "bold"
 			}
 		},
 		{
-			"name": "Strings (JavaScript)",
+			"name": "Method declarations (JavaScript/TypeScript)",
 			"scope": [
-				"string.js",
-				"string.tag.js",
-				"string.value.js",
-				"string.regexp.js",
-				"meta.embedded.assembly.js",
-				"meta.preprocessor.string.js"
+				"meta.definition.method.js",
+				"meta.definition.method.ts"
 			],
 			"settings": {
-				"foreground": "#CE9178",
+				"foreground": "#1EB540",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Operators (JavaScript/TypeScript)",
+			"scope": [
+				"storage.type.function.arrow"
+			],
+			"settings": {
+				"foreground": "#E6E6FA",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Type arguments",
+			"scope": [
+				"meta.object-literal.key.js",
+				"meta.object-literal.key.ts"
+			],
+			"settings": {
+				"foreground": "#D7837F",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Variable declarations (JavaScript/TypeScript)",
+			"scope": [
+				"meta.definition.variable.js",
+				"meta.definition.variable.ts"
+			],
+			"settings": {
+				"foreground": "#ED7F48",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Variables (JavaScript/TypeScript)",
+			"scope": [
+				"meta.block.js",
+				"source.js",
+				"meta.block.ts",
+				"source.ts"
+			],
+			"settings": {
+				"foreground": "#FFBF26",
 				"fontStyle": ""
 			}
 		},
