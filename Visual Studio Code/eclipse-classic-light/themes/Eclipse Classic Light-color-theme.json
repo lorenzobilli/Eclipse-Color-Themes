@@ -700,6 +700,29 @@
 			}
 		},
 
+		// Custom values - HTML
+
+		{
+			"name": "DOCTYPE public reference (HTML)",
+			"scope": [
+				"entity.other.attribute-name.html"
+			],
+			"settings": {
+				"foreground": "#008080",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Entity references (HTML)",
+			"scope": [
+				"constant.character.entity.named.nbsp.html"
+			],
+			"settings": {
+				"foreground": "#2A00FF",
+				"fontStyle": ""
+			}
+		},
+
 		// Custom values - Java
 
 		{
