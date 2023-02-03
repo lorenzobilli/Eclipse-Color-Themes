@@ -40,7 +40,7 @@
 			"scope": "invalid.deprecated",
 			"settings": {
 				"foreground": "#AB1F36",
-				"fontStyle": "underline"
+				"fontStyle": "strikethrough"
 			}
 		},
 		{
@@ -134,7 +134,8 @@
 				"constant.language",
 				"constant.other",
 				"constant.other.enum",
-				"variable.other.enummember"
+				"variable.other.enummember",
+				"support.constant"
 			],
 			"settings": {
 				"foreground": "#8DDAF8",
@@ -298,6 +299,7 @@
 				"keyword.control.anchor.regexp",
 				"keyword.operator.quantifier.regexp",
 				"punctuation.separator.comma",
+				"punctuation.separator.delimiter",
 				"punctuation.separator.key-value",
 				"punctuation.definition.section.case-statement",
 				"punctuation.terminator.statement",
@@ -620,10 +622,20 @@
 			}
 		},
 
-		// Custom values - CSS
+		// Custom values - CSS/SCSS
 
 		{
-			"name": "Classes (CSS)",
+			"name": "Attribute names (CSS/SCSS)",
+			"scope": [
+				"entity.other.attribute-name.css"
+			],
+			"settings": {
+				"foreground": "#F7C517",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Classes (CSS/SCSS)",
 			"scope": [
 				"entity.other.attribute-name.class.css",
 				"entity.other.attribute-name.class.mixin.css"
@@ -634,7 +646,7 @@
 			}
 		},
 		{
-			"name": "Id selector (CSS)",
+			"name": "Id selector (CSS/SCSS)",
 			"scope": [
 				"entity.other.attribute-name.id.css"
 			],
@@ -644,7 +656,19 @@
 			}
 		},
 		{
-			"name": "Property names (CSS)",
+			"name": "Functions (CSS/SCSS)",
+			"scope": [
+				"support.function.misc.css",
+				"support.function.misc.scss",
+				"entity.name.function.scss"
+			],
+			"settings": {
+				"foreground": "#A7EC21",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Property names (CSS/SCSS)",
 			"scope": [
 				"support.type.property-name.css"
 			],
@@ -654,22 +678,35 @@
 			}
 		},
 		{
-			"name": "Property values (CSS)",
+			"name": "Property values (CSS/SCSS)",
 			"scope": [
-				"support.constant.property-value.css"
+				"support.constant.property-value.css",
+				"meta.property-value.css",
+				"meta.property-value.scss"
 			],
 			"settings": {
-				"foreground": "#17C6A3",
-				"fontStyle": "italic"
+				// Follows global "Constants" style
+				"foreground": "#8DDAF8",
+				"fontStyle": "italic bold"
 			}
 		},
 		{
-			"name": "Pseudo-class (CSS)",
+			"name": "Pseudo-class (CSS/SCSS)",
 			"scope": [
 				"entity.other.attribute-name.pseudo-class.css"
 			],
 			"settings": {
 				"foreground": "#FB518C",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Variables (CSS/SCSS)",
+			"scope": [
+				"variable.scss"
+			],
+			"settings": {
+				"foreground": "#FFBF26",
 				"fontStyle": ""
 			}
 		},
