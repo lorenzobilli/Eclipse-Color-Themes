@@ -95,7 +95,9 @@
 		},
 		{
 			"name": "Attribute names",
-			"scope": "entity.other.attribute-name",
+			"scope": [
+				// Currently not supported
+			],
 			"settings": {
 				"foreground": "#A7EC21",
 				"fontStyle": ""
@@ -713,12 +715,22 @@
 		// Custom values - HTML
 
 		{
-			"name": "DOCTYPE public reference (HTML)",
+			"name": "Attribute names (HTML)",
 			"scope": [
-				"entity.other.attribute-name.html"
+				"meta.attribute"
 			],
 			"settings": {
-				"foreground": "#F0A253",
+				"foreground": "#A7EC21",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "DOCTYPE name/references (HTML)",
+			"scope": [
+				"meta.tag.metadata.doctype.html"
+			],
+			"settings": {
+				"foreground": "#FEA88F",
 				"fontStyle": ""
 			}
 		},

@@ -100,7 +100,9 @@
 		},
 		{
 			"name": "Attribute names",
-			"scope": "entity.other.attribute-name",
+			"scope": [
+				// Currently not supported
+			],
 			"settings": {
 				"foreground": "#000000",
 				"fontStyle": ""
@@ -703,9 +705,19 @@
 		// Custom values - HTML
 
 		{
-			"name": "DOCTYPE public reference (HTML)",
+			"name": "Attribute names (HTML)",
 			"scope": [
-				"entity.other.attribute-name.html"
+				"meta.attribute"
+			],
+			"settings": {
+				"foreground": "#000000",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "DOCTYPE name/references (HTML)",
+			"scope": [
+				"meta.tag.metadata.doctype.html"
 			],
 			"settings": {
 				"foreground": "#008080",
