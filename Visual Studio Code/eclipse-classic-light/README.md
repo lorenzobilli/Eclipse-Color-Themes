@@ -1,1 +1,1 @@
-This is a complete and adapted port of the Eclipse light theme of Mars/Neon version era.
+This is a complete and adapted port of the Eclipse light theme of Luna/Mars/Neon versions era.
