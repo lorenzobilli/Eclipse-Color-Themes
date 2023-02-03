@@ -2,7 +2,7 @@
     "name": "eclipse-classic-light",
     "displayName": "Eclipse Classic Light",
     "description": "A complete port of the Eclipse classic light theme (used from Eclipse Luna till Eclipse Neon).",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "author": "Lorenzo Billi",
     "publisher": "LorenzoBilli",
     "repository": {
