@@ -705,6 +705,39 @@
 		// Custom values - HTML
 
 		{
+			"name": "Angular events (HTML)",
+			"scope": [
+				"entity.other.ng-binding-name.event"
+			],
+			"settings": {
+				// Follows global "Keywords" style
+				"foreground": "#7F0055",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Angular properties (HTML)",
+			"scope": [
+				"entity.other.ng-binding-name.property.html"
+			],
+			"settings": {
+				// Follows global "Fields" style
+				"foreground": "#0000C0",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Angular templates (HTML)",
+			"scope": [
+				"entity.other.ng-binding-name.template"
+			],
+			"settings": {
+				// Follows global "Enums" style
+				"foreground": "#000000",
+				"fontStyle": ""
+			}
+		},
+		{
 			"name": "Attribute names (HTML)",
 			"scope": [
 				"meta.attribute"
@@ -903,7 +936,8 @@
 				"meta.block.js",
 				"source.js",
 				"meta.block.ts",
-				"source.ts"
+				"source.ts",
+				"variable.other.readwrite.ts"
 			],
 			"settings": {
 				"foreground": "#6A3E3E",
