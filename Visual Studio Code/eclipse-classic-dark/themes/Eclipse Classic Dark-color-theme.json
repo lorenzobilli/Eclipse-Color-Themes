@@ -765,7 +765,8 @@
 		{
 			"name": "Angular properties (HTML)",
 			"scope": [
-				"entity.other.ng-binding-name.property.html"
+				"entity.other.ng-binding-name.property.html",
+				"entity.other.ng-binding-name.two-way.html"
 			],
 			"settings": {
 				// Follows global "Fields" style
