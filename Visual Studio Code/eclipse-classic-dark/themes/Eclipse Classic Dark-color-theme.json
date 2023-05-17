@@ -417,7 +417,7 @@
 			],
 			"settings": {
 				"foreground": "#ED7F48",
-				"fontStyle": ""
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -520,7 +520,7 @@
 			],
 			"settings": {
 				"foreground": "#ED7F48",
-				"fontStyle": ""
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -607,7 +607,7 @@
 			],
 			"settings": {
 				"foreground": "#ED7F48",
-				"fontStyle": ""
+				"fontStyle": "bold"
 			}
 		},
 		{

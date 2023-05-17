@@ -1,6 +1,6 @@
 This is a complete and adapted port of the Eclipse dark theme of Luna/Mars/Neon versions era.
 
-<img src="./example.png">
+<img title="Eclipse Classic Dark preview" src="https://github.com/lorenzobilli/Eclipse-color-theme/blob/2f51308a38f6ccb5f297021369b4e57815e9bc4d/example_dark.png" alt="Eclipse Classic Dark preview">
 
 All colors and font styles have been ported and adapted to be as close as possible to the original Java dark theme for the following programming languages:
 
