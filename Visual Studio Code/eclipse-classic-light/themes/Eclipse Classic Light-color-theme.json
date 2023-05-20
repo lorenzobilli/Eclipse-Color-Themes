@@ -904,6 +904,16 @@
 			}
 		},
 		{
+			"name": "Documentation tags (JavaScript/TypeScript)",
+			"scope": [
+				"storage.type.class.jsdoc"
+			],
+			"settings": {
+				"foreground": "#7F9FBF",
+				"fontStyle": "bold"
+			}
+		},
+		{
 			"name": "Fields (JavaScript/TypeScript)",
 			"scope": [
 				"support.variable.property.js",
@@ -918,10 +928,14 @@
 			"name": "Keywords (JavaScript/TypeScript)",
 			"scope": [
 				"constant.language.boolean.true.js",
+				"constant.language.boolean.true.ts",
 				"constant.language.boolean.false.js",
+				"constant.language.boolean.false.ts",
+				"support.type.primitive.js",
+				"support.type.primitive.ts"
 			],
 			"settings": {
-				"foreground": "#DD2867",
+				"foreground": "#7F0055",
 				"fontStyle": "bold"
 			}
 		},
@@ -980,6 +994,29 @@
 			"settings": {
 				"foreground": "#6A3E3E",
 				"fontStyle": ""
+			}
+		},
+
+		// Custom values - JSON
+
+		{
+			"name": "Fields (JSON)",
+			"scope": [
+				"support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#0000C0",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Keywords (JSON)",
+			"scope": [
+				"constant.language.json"
+			],
+			"settings": {
+				"foreground": "#7F0055",
+				"fontStyle": "bold"
 			}
 		},
 
