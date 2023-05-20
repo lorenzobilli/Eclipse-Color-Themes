@@ -16,6 +16,8 @@ All colors and font styles have been ported and adapted to be as close as possib
 
 - JavaScript/TypeScript
 
+- JSON
+
 - HTML (with Angular special attributes)
 
 - CSS/SCSS
