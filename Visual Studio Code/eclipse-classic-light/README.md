@@ -22,6 +22,8 @@ All colors and font styles have been ported and adapted to be as close as possib
 
 - CSS/SCSS
 
+- PowerShell
+
 - ... with more to come!
 
 Check out the companion Eclipse Classic Dark theme in the Marketplace: https://marketplace.visualstudio.com/items?itemName=LorenzoBilli.eclipse-classic-dark
