@@ -5665,7 +5665,7 @@
       </Color>
       <Color Name="axml - name">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFFFFFFF" />
+        <Foreground Type="CT_RAW" Source="FF03A8D8" />
       </Color>
       <Color Name="axml - processing instruction">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -6133,7 +6133,7 @@
       </Color>
       <Color Name="HTML Element Name">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF569CD6" />
+        <Foreground Type="CT_RAW" Source="FF03A8D8" />
       </Color>
       <Color Name="HTML Entity">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
@@ -8384,7 +8384,7 @@
       </Color>
       <Color Name="XAML Name">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFE6E6E6" />
+        <Foreground Type="CT_RAW" Source="FF03A8D8" />
       </Color>
       <Color Name="XAML Attribute">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
@@ -8432,7 +8432,7 @@
       </Color>
       <Color Name="XML Name">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF569CD6" />
+        <Foreground Type="CT_RAW" Source="FF03A8D8" />
       </Color>
       <Color Name="XML Attribute">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
