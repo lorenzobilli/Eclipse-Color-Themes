@@ -6023,15 +6023,15 @@
       </Color>
       <Color Name="CSS Selector">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF800000" />
+        <Foreground Type="CT_RAW" Source="FF3F7F7F" />
       </Color>
       <Color Name="CSS Property Name">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF800000" />
+        <Foreground Type="CT_RAW" Source="FF7F007F" />
       </Color>
       <Color Name="CSS Property Value">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF0451A5" />
+        <Foreground Type="CT_RAW" Source="FF0000C0" />
       </Color>
       <Color Name="HTML Attribute Name">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -6643,19 +6643,19 @@
       </Color>
       <Color Name="ScssVariableDeclarationClassificationFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FF6A3E3E" />
       </Color>
       <Color Name="ScssVariableReferenceFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FF6A3E3E" />
       </Color>
       <Color Name="ScssMixinDeclarationFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FF000000" />
       </Color>
       <Color Name="ScssMixinReferenceFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FF000000" />
       </Color>
       <Color Name="LessCssVariableDeclarationClassificationFormat">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -6799,11 +6799,11 @@
       </Color>
       <Color Name="CSS Keyword">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FF7F0055" />
       </Color>
       <Color Name="CSS String Value">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FF2A00FF" />
       </Color>
       <Color Name="HTML Entity">
         <Background Type="CT_INVALID" Source="00000000" />

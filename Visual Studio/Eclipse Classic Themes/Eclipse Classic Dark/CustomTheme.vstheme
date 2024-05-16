@@ -6097,7 +6097,7 @@
       </Color>
       <Color Name="CSS Keyword">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF569CD6" />
+        <Foreground Type="CT_RAW" Source="FFDD2867" />
       </Color>
       <Color Name="CSS Comment">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
@@ -6105,19 +6105,19 @@
       </Color>
       <Color Name="CSS Selector">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFD7BA7D" />
+        <Foreground Type="CT_RAW" Source="FF12E046" />
       </Color>
       <Color Name="CSS Property Name">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFD7BA7D" />
+        <Foreground Type="CT_RAW" Source="FF0699F0" />
       </Color>
       <Color Name="CSS Property Value">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFCE9178" />
+        <Foreground Type="CT_RAW" Source="FF8DDAF8" />
       </Color>
       <Color Name="CSS String Value">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFD69D85" />
+        <Foreground Type="CT_RAW" Source="FF17C6A3" />
       </Color>
       <Color Name="HTML Attribute Name">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
@@ -6533,19 +6533,19 @@
       </Color>
       <Color Name="ScssMixinDeclarationFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF7DBAD7" />
+        <Foreground Type="CT_RAW" Source="FFA7EC21" />
       </Color>
       <Color Name="ScssMixinReferenceFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF7DBAD7" />
+        <Foreground Type="CT_RAW" Source="FFA7EC21" />
       </Color>
       <Color Name="ScssVariableDeclarationClassificationFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFC563BD" />
+        <Foreground Type="CT_RAW" Source="FFFFBF26" />
       </Color>
       <Color Name="ScssVariableReferenceFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFC563BD" />
+        <Foreground Type="CT_RAW" Source="FFFFBF26" />
       </Color>
       <Color Name="outlining.verticalrule">
         <Background Type="CT_INVALID" Source="00000000" />
