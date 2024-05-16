@@ -1,5 +1,5 @@
 ﻿<Themes>
-  <Theme Name="Eclipse Classic Dark" GUID="{ab65635b-ec26-41f2-a295-60fae59a9038}" BaseGUID="{bd1a09c9-cf88-4cb6-8b49-0c0d80316e49}">
+  <Theme Name="Eclipse Classic Dark (3)" GUID="{9986c85d-999f-4479-8143-88469c87cbb9}" BaseGUID="{bd1a09c9-cf88-4cb6-8b49-0c0d80316e49}">
     <Category Name="ACDCOverview" GUID="{c8887ac6-3c60-4209-9d69-8f4c12a60044}">
       <Color Name="Body">
         <Background Type="CT_RAW" Source="FF1E1E1E" />
@@ -6169,7 +6169,7 @@
       </Color>
       <Color Name="VBScript String">
         <Background Type="CT_COLORINDEX" Source="00000001" />
-        <Foreground Type="CT_RAW" Source="FFD69D85" />
+        <Foreground Type="CT_RAW" Source="FF17C6A3" />
       </Color>
       <Color Name="VBScript Identifier">
         <Background Type="CT_COLORINDEX" Source="00000001" />
@@ -6889,7 +6889,7 @@
       </Color>
       <Color Name="json - string">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FF17C6A3" />
       </Color>
       <Color Name="json - keyword">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -8484,7 +8484,7 @@
       </Color>
       <Color Name="SQL String">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FF17C6A3" />
       </Color>
       <Color Name="SQLCMD Command">
         <Background Type="CT_INVALID" Source="00000000" />
