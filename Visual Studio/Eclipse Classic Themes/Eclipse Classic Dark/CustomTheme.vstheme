@@ -5673,7 +5673,7 @@
       </Color>
       <Color Name="axml - text">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFABABAB" />
+        <Foreground Type="CT_RAW" Source="FFD9E8F7" />
       </Color>
       <Color Name="axml - resource url">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -5853,7 +5853,7 @@
       </Color>
       <Color Name="xml literal - text">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFC8C8C8" />
+        <Foreground Type="CT_RAW" Source="FFD9E8F7" />
       </Color>
       <Color Name="Test Summary - Default">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -8368,7 +8368,7 @@
       </Color>
       <Color Name="XAML Text">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFABABAB" />
+        <Foreground Type="CT_RAW" Source="FFD9E8F7" />
       </Color>
       <Color Name="XAML Keyword">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
@@ -8420,7 +8420,7 @@
       </Color>
       <Color Name="XML Text">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFC8C8C8" />
+        <Foreground Type="CT_RAW" Source="FFD9E8F7" />
       </Color>
       <Color Name="XML Keyword">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
@@ -8464,7 +8464,7 @@
       </Color>
       <Color Name="Text">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FFD9E8F7" />
       </Color>
       <Color Name="SQL Stored Procedure">
         <Background Type="CT_INVALID" Source="00000000" />
