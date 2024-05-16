@@ -1,5 +1,5 @@
 ﻿<Themes>
-  <Theme Name="Eclipse Classic Light (2)" GUID="{509c1254-e1b7-435b-867e-d2458b2f5bdd}" BaseGUID="{4f70ee2e-ff71-433f-86d6-684c7796b1f1}">
+	<Theme Name="Eclipse Classic Light" GUID="{51631d26-12f2-462a-bb4e-f7e65d399426}" BaseGUID="{4f70ee2e-ff71-433f-86d6-684c7796b1f1}">
     <Category Name="ACDCOverview" GUID="{c8887ac6-3c60-4209-9d69-8f4c12a60044}">
       <Color Name="Body">
         <Background Type="CT_RAW" Source="FFFFFFFF" />
@@ -5923,7 +5923,7 @@
       </Color>
       <Color Name="JSON Property Name">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF2E75B6" />
+        <Foreground Type="CT_RAW" Source="FF0000C0" />
       </Color>
       <Color Name="MarkerFormatDefinition/HighlightedReference">
         <Background Type="CT_RAW" Source="FFD4D4D4" />
@@ -6759,7 +6759,7 @@
       </Color>
       <Color Name="json - keyword">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FF7F0055" />
       </Color>
       <Color Name="json - text">
         <Background Type="CT_INVALID" Source="00000000" />

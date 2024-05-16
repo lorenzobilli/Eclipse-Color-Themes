@@ -1,5 +1,5 @@
 ﻿<Themes>
-  <Theme Name="Eclipse Classic Dark (3)" GUID="{9986c85d-999f-4479-8143-88469c87cbb9}" BaseGUID="{bd1a09c9-cf88-4cb6-8b49-0c0d80316e49}">
+	<Theme Name="Eclipse Classic Dark" GUID="{ab65635b-ec26-41f2-a295-60fae59a9038}" BaseGUID="{bd1a09c9-cf88-4cb6-8b49-0c0d80316e49}">
     <Category Name="ACDCOverview" GUID="{c8887ac6-3c60-4209-9d69-8f4c12a60044}">
       <Color Name="Body">
         <Background Type="CT_RAW" Source="FF1E1E1E" />
@@ -6505,7 +6505,7 @@
       </Color>
       <Color Name="JSON Property Name">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFD7BA7D" />
+        <Foreground Type="CT_RAW" Source="FF66E1F8" />
       </Color>
       <Color Name="LessCssVariableDeclarationClassificationFormat">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -6893,7 +6893,7 @@
       </Color>
       <Color Name="json - keyword">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FFDD2867" />
       </Color>
       <Color Name="json - text">
         <Background Type="CT_INVALID" Source="00000000" />
