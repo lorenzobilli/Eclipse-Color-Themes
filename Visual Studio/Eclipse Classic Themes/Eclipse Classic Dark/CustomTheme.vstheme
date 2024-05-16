@@ -5653,7 +5653,7 @@
       </Color>
       <Color Name="axml - comment">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF57A64A" />
+        <Foreground Type="CT_RAW" Source="FF626262" />
       </Color>
       <Color Name="axml - delimiter">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -5777,7 +5777,7 @@
       </Color>
       <Color Name="regex - comment">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF57A64A" />
+        <Foreground Type="CT_RAW" Source="FF626262" />
       </Color>
       <Color Name="regex - character class">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -5829,7 +5829,7 @@
       </Color>
       <Color Name="xml literal - comment">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF608B4E" />
+        <Foreground Type="CT_RAW" Source="FF626262" />
       </Color>
       <Color Name="xml literal - delimiter">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -6089,7 +6089,7 @@
       </Color>
       <Color Name="XML Doc Comment">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF57A64A" />
+        <Foreground Type="CT_RAW" Source="FF626262" />
       </Color>
       <Color Name="XML Doc Tag">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
@@ -6101,7 +6101,7 @@
       </Color>
       <Color Name="CSS Comment">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF57A64A" />
+        <Foreground Type="CT_RAW" Source="FF626262" />
       </Color>
       <Color Name="CSS Selector">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
@@ -6129,7 +6129,7 @@
       </Color>
       <Color Name="HTML Comment">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF6A9955" />
+        <Foreground Type="CT_RAW" Source="FF626262" />
       </Color>
       <Color Name="HTML Element Name">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
@@ -6157,7 +6157,7 @@
       </Color>
       <Color Name="VBScript Comment">
         <Background Type="CT_COLORINDEX" Source="00000001" />
-        <Foreground Type="CT_RAW" Source="FF57A64A" />
+        <Foreground Type="CT_RAW" Source="FF626262" />
       </Color>
       <Color Name="VBScript Operator">
         <Background Type="CT_COLORINDEX" Source="00000001" />
@@ -6881,7 +6881,7 @@
       </Color>
       <Color Name="json - comment">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FF626262" />
       </Color>
       <Color Name="json - number">
         <Background Type="CT_INVALID" Source="00000000" />
