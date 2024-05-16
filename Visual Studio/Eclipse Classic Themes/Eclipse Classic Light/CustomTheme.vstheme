@@ -5575,7 +5575,7 @@
     <Category Name="Text Editor MEF Items" GUID="{75a05685-00a8-4ded-bae5-e7a50bfa929a}">
       <Color Name="axml - attribute name">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFFF0000" />
+        <Foreground Type="CT_RAW" Source="FF000000" />
       </Color>
       <Color Name="axml - attribute quotes">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -5583,7 +5583,7 @@
       </Color>
       <Color Name="axml - attribute value">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF0000FF" />
+        <Foreground Type="CT_RAW" Source="FF2A00FF" />
       </Color>
       <Color Name="axml - cdata section">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -6035,11 +6035,11 @@
       </Color>
       <Color Name="HTML Attribute Name">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFFF0000" />
+        <Foreground Type="CT_RAW" Source="FF000000" />
       </Color>
       <Color Name="HTML Attribute Value">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF0000FF" />
+        <Foreground Type="CT_RAW" Source="FF2A00FF" />
       </Color>
       <Color Name="HTML Comment">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -6263,7 +6263,7 @@
       </Color>
       <Color Name="urlformat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FF2A00FF" />
       </Color>
       <Color Name="Caret (Primary)">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -8334,7 +8334,7 @@
       </Color>
       <Color Name="XAML Attribute">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FF000000" />
       </Color>
       <Color Name="XAML CData Section">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -8346,11 +8346,11 @@
       </Color>
       <Color Name="XAML Attribute Value">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FF2A00FF" />
       </Color>
       <Color Name="XAML Attribute Quotes">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FF2A00FF" />
       </Color>
       <Color Name="XAML Markup Extension Class">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -8382,7 +8382,7 @@
       </Color>
       <Color Name="XML Attribute">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FF000000" />
       </Color>
       <Color Name="XML CData Section">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -8394,11 +8394,11 @@
       </Color>
       <Color Name="XML Attribute Value">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FF2A00FF" />
       </Color>
       <Color Name="XML Attribute Quotes">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FF2A00FF" />
       </Color>
       <Color Name="XSLT Keyword">
         <Background Type="CT_INVALID" Source="00000000" />
