@@ -5657,7 +5657,7 @@
       </Color>
       <Color Name="axml - delimiter">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF808080" />
+        <Foreground Type="CT_RAW" Source="FF0080FF" />
       </Color>
       <Color Name="axml - entity reference">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -6149,7 +6149,7 @@
       </Color>
       <Color Name="HTML Tag Delimiter">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF808080" />
+        <Foreground Type="CT_RAW" Source="FF0080FF" />
       </Color>
       <Color Name="VBScript Keyword">
         <Background Type="CT_COLORINDEX" Source="00000001" />
@@ -8376,7 +8376,7 @@
       </Color>
       <Color Name="XAML Delimiter">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF808080" />
+        <Foreground Type="CT_RAW" Source="FF0080FF" />
       </Color>
       <Color Name="XAML Comment">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
@@ -8428,7 +8428,7 @@
       </Color>
       <Color Name="XML Delimiter">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF808080" />
+        <Foreground Type="CT_RAW" Source="FF0080FF" />
       </Color>
       <Color Name="XML Name">
         <Background Type="CT_AUTOMATIC" Source="00000000" />

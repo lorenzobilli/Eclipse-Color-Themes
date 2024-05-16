@@ -5595,7 +5595,7 @@
       </Color>
       <Color Name="axml - delimiter">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF0000FF" />
+        <Foreground Type="CT_RAW" Source="FF008080" />
       </Color>
       <Color Name="axml - entity reference">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -6051,7 +6051,7 @@
       </Color>
       <Color Name="HTML Tag Delimiter">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF800000" />
+        <Foreground Type="CT_RAW" Source="FF008080" />
       </Color>
       <Color Name="Interactive Window Error Output">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -8326,7 +8326,7 @@
       </Color>
       <Color Name="XAML Delimiter">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FF008080" />
       </Color>
       <Color Name="XAML Name">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -8374,7 +8374,7 @@
       </Color>
       <Color Name="XML Delimiter">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FF008080" />
       </Color>
       <Color Name="XML Name">
         <Background Type="CT_INVALID" Source="00000000" />
