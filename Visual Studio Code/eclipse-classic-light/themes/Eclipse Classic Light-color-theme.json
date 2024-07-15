@@ -204,7 +204,8 @@
 		{
 			"name": "Functions",
 			"scope": [
-				"meta.function-call"
+				"meta.function-call",
+				"support.function"
 			],
 			"settings": {
 				"foreground": "#000000"
@@ -400,7 +401,8 @@
 				// "support.variable",
 				// "entity.name.variable",
 				// "constant.other.placeholder"
-				"meta.definition.variable"
+				"meta.definition.variable",
+				"text.variable"
 			],
 			"settings": {
 				"foreground": "#6A3E3E"
@@ -1116,6 +1118,18 @@
 			],
 			"settings": {
 				"foreground": "#6A3E3E"
+			}
+		},
+
+		// Custom values - SQL
+
+		{
+			"name": "Classes (SQL)",
+			"scope": [
+				"text.bracketed"
+			],
+			"settings": {
+				"foreground": "#000000"
 			}
 		},
 
