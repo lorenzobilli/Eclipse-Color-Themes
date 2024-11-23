@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="eclipse_classic_dark.f395573e-b7a1-4f60-993e-962093b2bb4a" Version="0.3.0" Language="en-US" Publisher="Lorenzo Billi" />
+        <Identity Id="eclipse_classic_dark.f395573e-b7a1-4f60-993e-962093b2bb4a" Version="0.3.1" Language="en-US" Publisher="Lorenzo Billi" />
         <DisplayName>Eclipse Classic Dark</DisplayName>
         <Description xml:space="preserve">A complete port of the Eclipse classic dark theme (used from Eclipse Luna till Eclipse Neon).A complete port of the Eclipse classic dark theme (used from Eclipse Luna till Eclipse Neon).</Description>
     </Metadata>
     <Installation>
-        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,18.0)">
             <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+        <InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.Community">
+            <ProductArchitecture>arm64</ProductArchitecture>
         </InstallationTarget>
     </Installation>
     <Dependencies>
