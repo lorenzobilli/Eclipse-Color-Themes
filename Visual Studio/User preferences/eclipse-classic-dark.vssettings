@@ -1,0 +1,74 @@
+<UserSettings>
+	<ApplicationIdentity version="17.0" />
+	<ToolsOptions>
+		<ToolsOptionsCategory name="Environment" RegisteredName="Environment" />
+	</ToolsOptions>
+	<Category name="Environment_Group" RegisteredName="Environment_Group">
+		<Category name="Environment_FontsAndColors" Category="{1EDA5DD4-927A-43a7-810E-7FD247D0DA1D}"
+			Package="{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}" RegisteredName="Environment_FontsAndColors"
+			PackageName="Visual Studio Environment Package">
+			<PropertyValue name="Version">2</PropertyValue>
+			<FontsAndColors Version="2.0">
+				<Theme Id="{AB65635B-EC26-41F2-A295-60FAE59A9038}" />
+				<Categories>
+					<Category GUID="{E0187991-B458-4F7E-8CA9-42C9A573B56C}" FontIsDefault="Yes">
+						<Items>
+							<Item Name="Identifier" Foreground="0x00F7E8D9" Background="0x02000000" BoldFont="No"
+								StrikethroughFont="No" ItalicFont="No" UnderlineFont="No" />
+							<Item Name="Keyword" Foreground="0x006728DD" Background="0x02000000" BoldFont="Yes"
+								StrikethroughFont="No" ItalicFont="No" UnderlineFont="No" />
+						</Items>
+					</Category>
+					<Category GUID="{75A05685-00A8-4DED-BAE5-E7A50BFA929A}" FontIsDefault="Yes">
+						<Items>
+							<Item Name="namespace name" Foreground="0x00C39012" Background="0x01000001" BoldFont="Yes"
+								StrikethroughFont="No" ItalicFont="No" UnderlineFont="No" />
+							<Item Name="event name" Foreground="0x00F8DA8D" Background="0x01000001" BoldFont="No"
+								StrikethroughFont="No" ItalicFont="Yes" UnderlineFont="No" />
+							<Item Name="property name" Foreground="0x00487FED" Background="0x01000001" BoldFont="Yes"
+								StrikethroughFont="No" ItalicFont="No" UnderlineFont="No" />
+							<Item Name="extension method name" Foreground="0x003FEC96" Background="0x01000001"
+								BoldFont="No" StrikethroughFont="No" ItalicFont="Yes" UnderlineFont="No" />
+							<Item Name="method name" Foreground="0x0040B51E" Background="0x01000001" BoldFont="Yes"
+								StrikethroughFont="No" ItalicFont="No" UnderlineFont="No" />
+							<Item Name="constant name" Foreground="0x00F8DA8D" Background="0x01000001" BoldFont="Yes"
+								StrikethroughFont="No" ItalicFont="Yes" UnderlineFont="No" />
+							<Item Name="enum member name" Foreground="0x00F8DA8D" Background="0x01000001" BoldFont="Yes"
+								StrikethroughFont="No" ItalicFont="Yes" UnderlineFont="No" />
+							<Item Name="struct name" Foreground="0x00E6AB3E" Background="0x01000001" BoldFont="Yes"
+								StrikethroughFont="No" ItalicFont="No" UnderlineFont="No" />
+							<Item Name="enum name" Foreground="0x00BA81CC" Background="0x01000001" BoldFont="No"
+								StrikethroughFont="No" ItalicFont="Yes" UnderlineFont="No" />
+							<Item Name="delegate name" Foreground="0x0021ECA7" Background="0x01000001" BoldFont="No"
+								StrikethroughFont="No" ItalicFont="No" UnderlineFont="No" />
+							<Item Name="record struct name" Foreground="0x00E6AB3E" Background="0x01000001"
+								BoldFont="Yes" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No" />
+							<Item Name="record class name" Foreground="0x00C39012" Background="0x01000001"
+								BoldFont="Yes" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No" />
+							<Item Name="class name" Foreground="0x00C39012" Background="0x01000001" BoldFont="Yes"
+								StrikethroughFont="No" ItalicFont="No" UnderlineFont="No" />
+							<Item Name="operator - overloaded" Foreground="0x00FAE6E6" Background="0x01000001"
+								BoldFont="No" StrikethroughFont="No" ItalicFont="Yes" UnderlineFont="No" />
+							<Item Name="keyword - control" Foreground="0x006728DD" Background="0x01000001"
+								BoldFont="Yes" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No" />
+							<Item Name="preprocessor text" Foreground="0x0040D10D" Background="0x01000001"
+								BoldFont="Yes" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No" />
+							<Item Name="Literal" Foreground="0x00F7E8D9" Background="0x02000000" BoldFont="No"
+								StrikethroughFont="No" ItalicFont="No" UnderlineFont="No" />
+							<Item Name="Preprocessor Keyword" Foreground="0x006728DD" Background="0x02000000"
+								BoldFont="Yes" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No" />
+							<Item Name="Keyword" Foreground="0x00FF0000" Background="0x01000001" BoldFont="Yes"
+								StrikethroughFont="No" ItalicFont="No" UnderlineFont="No" />
+							<Item Name="Identifier" Foreground="0x00F7E8D9" Background="0x01000001" BoldFont="No"
+								StrikethroughFont="No" ItalicFont="No" UnderlineFont="No" />
+						</Items>
+					</Category>
+					<Category GUID="{B36B0228-DBAD-4DB0-B9C7-2AD3E572010F}" FontName="Segoe UI" FontSize="9" CharSet="1"
+						FontIsDefault="No">
+						<Items />
+					</Category>
+				</Categories>
+			</FontsAndColors>
+		</Category>
+	</Category>
+</UserSettings>
