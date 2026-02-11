@@ -1,0 +1,23 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="arm64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="C:/Users/lorenzobilli/Sviluppo/Repos/Eclipse-color-theme/Visual Studio/Eclipse Classic Themes/Eclipse Classic Dark (Legacy)/Eclipse Classic Dark (Legacy).csproj" Id="ab65635b-ec26-41f2-a295-60fae59a9038">
+    <Platform Solution="*|arm64" Project="arm64" />
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
+  <Project Path="C:/Users/lorenzobilli/Sviluppo/Repos/Eclipse-color-theme/Visual Studio/Eclipse Classic Themes/Eclipse Classic Light (Legacy)/Eclipse Classic Light (Legacy).csproj" Id="51631d26-12f2-462a-bb4e-f7e65d399426">
+    <Platform Solution="*|arm64" Project="arm64" />
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
+  <Project Path="Eclipse Classic Dark/Eclipse Classic Dark.csproj" Id="3ed2e9e0-44d0-43fb-8b17-bff02d4005d1">
+    <Platform Solution="*|arm64" Project="arm64" />
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
+  <Project Path="Eclipse Classic Light/Eclipse Classic Light.csproj" Id="ad47f99a-5ddc-47b1-a42e-6f2212b5c6a4">
+    <Platform Solution="*|arm64" Project="arm64" />
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
+</Solution>
