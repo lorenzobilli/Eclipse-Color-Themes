@@ -1,6 +1,5 @@
 ﻿<Themes>
-  <Theme Name="Eclipse Classic Dark" GUID="{4bc79a74-0c6f-4734-b216-5bf37152ba3d}"
-    BaseGUID="{d05a431f-05cd-4217-aaf0-e34bed9ef215}">
+  <Theme Name="Eclipse Classic Dark" GUID="{38c811d2-9922-4e78-86b9-c0b95300563a}" BaseGUID="{d05a431f-05cd-4217-aaf0-e34bed9ef215}">
     <Category Name="Shell" GUID="{73708ded-2d56-4aad-b8eb-73b20d3f4bff}">
       <Color Name="AccentFillDefault">
         <Background Type="CT_RAW" Source="FFB5C0CE" />
@@ -351,6 +350,24 @@
       </Color>
       <Color Name="StatusBarTextFillSolutionLoading">
         <Background Type="CT_RAW" Source="FFFFFFFF" />
+      </Color>
+      <Color Name="EnvironmentBody">
+        <Background Type="CT_RAW" Source="FF2B3441" />
+      </Color>
+      <Color Name="EnvironmentBodyText">
+        <Background Type="CT_RAW" Source="FFFFFFFF" />
+      </Color>
+      <Color Name="EnvironmentHeader">
+        <Background Type="CT_RAW" Source="FF24272B" />
+      </Color>
+      <Color Name="EnvironmentHeaderInactive">
+        <Background Type="CT_RAW" Source="FF24272B" />
+      </Color>
+      <Color Name="EnvironmentTab">
+        <Background Type="CT_RAW" Source="FF24272B" />
+      </Color>
+      <Color Name="EnvironmentTabInactive">
+        <Background Type="CT_RAW" Source="FF24272B" />
       </Color>
     </Category>
     <Category Name="ACDCOverview" GUID="{c8887ac6-3c60-4209-9d69-8f4c12a60044}">
@@ -3673,7 +3690,7 @@
         <Background Type="CT_RAW" Source="FF999999" />
       </Color>
     </Category>
-    <Category Name="Decorative" GUID="{0c37665d-8581-4451-8394-6f4d5abd88b1}">
+    <Category Name="DecorativeMPF" GUID="{0c37665d-8581-4451-8394-6f4d5abd88b1}">
       <Color Name="RedPrimary">
         <Background Type="CT_RAW" Source="FFD7494E" />
       </Color>
@@ -8465,7 +8482,7 @@
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="Indicator Margin">
-        <Background Type="CT_RAW" Source="FF333333" />
+        <Background Type="CT_RAW" Source="FF1E1E1E" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="Visible Whitespace">
@@ -10123,6 +10140,326 @@
       </Color>
       <Color Name="KeyboardFocusSelected">
         <Foreground Type="CT_RAW" Source="FF404040" />
+      </Color>
+    </Category>
+    <Category Name="Decorative" GUID="{82c13048-cda9-485a-8d48-4081a585bbb9}">
+      <Color Name="BluePrimary">
+        <Background Type="CT_RAW" Source="FF3595DE" />
+      </Color>
+      <Color Name="BluePrimaryAlt">
+        <Background Type="CT_RAW" Source="FF5CAAE5" />
+      </Color>
+      <Color Name="BlueQuaternary">
+        <Background Type="CT_RAW" Source="663595DE" />
+      </Color>
+      <Color Name="BlueQuinary">
+        <Background Type="CT_RAW" Source="333595DE" />
+      </Color>
+      <Color Name="BlueSecondary">
+        <Background Type="CT_RAW" Source="CC3595DE" />
+      </Color>
+      <Color Name="BlueSenary">
+        <Background Type="CT_RAW" Source="1F3595DE" />
+      </Color>
+      <Color Name="BlueTertiary">
+        <Background Type="CT_RAW" Source="993595DE" />
+      </Color>
+      <Color Name="DarkBluePrimary">
+        <Background Type="CT_RAW" Source="FF4178A3" />
+      </Color>
+      <Color Name="DarkBluePrimaryAlt">
+        <Background Type="CT_RAW" Source="FF92B5D1" />
+      </Color>
+      <Color Name="DarkBlueQuaternary">
+        <Background Type="CT_RAW" Source="664178A3" />
+      </Color>
+      <Color Name="DarkBlueQuinary">
+        <Background Type="CT_RAW" Source="334178A3" />
+      </Color>
+      <Color Name="DarkBlueSecondary">
+        <Background Type="CT_RAW" Source="CC4178A3" />
+      </Color>
+      <Color Name="DarkBlueSenary">
+        <Background Type="CT_RAW" Source="1F4178A3" />
+      </Color>
+      <Color Name="DarkBlueTertiary">
+        <Background Type="CT_RAW" Source="994178A3" />
+      </Color>
+      <Color Name="DarkRedPrimary">
+        <Background Type="CT_RAW" Source="FFAC4F5E" />
+      </Color>
+      <Color Name="DarkRedPrimaryAlt">
+        <Background Type="CT_RAW" Source="FFD69CA5" />
+      </Color>
+      <Color Name="DarkRedQuaternary">
+        <Background Type="CT_RAW" Source="66AC4F5E" />
+      </Color>
+      <Color Name="DarkRedQuinary">
+        <Background Type="CT_RAW" Source="33AC4F5E" />
+      </Color>
+      <Color Name="DarkRedSecondary">
+        <Background Type="CT_RAW" Source="CCAC4F5E" />
+      </Color>
+      <Color Name="DarkRedSenary">
+        <Background Type="CT_RAW" Source="1FAC4F5E" />
+      </Color>
+      <Color Name="DarkRedTertiary">
+        <Background Type="CT_RAW" Source="99AC4F5E" />
+      </Color>
+      <Color Name="GrapePrimary">
+        <Background Type="CT_RAW" Source="FFB55FC1" />
+      </Color>
+      <Color Name="GrapePrimaryAlt">
+        <Background Type="CT_RAW" Source="FFD9A7E0" />
+      </Color>
+      <Color Name="GrapeQuaternary">
+        <Background Type="CT_RAW" Source="66B65FC2" />
+      </Color>
+      <Color Name="GrapeQuinary">
+        <Background Type="CT_RAW" Source="33B65FC2" />
+      </Color>
+      <Color Name="GrapeSecondary">
+        <Background Type="CT_RAW" Source="CCB65FC2" />
+      </Color>
+      <Color Name="GrapeSenary">
+        <Background Type="CT_RAW" Source="1FB65FC2" />
+      </Color>
+      <Color Name="GrapeTertiary">
+        <Background Type="CT_RAW" Source="99B65FC2" />
+      </Color>
+      <Color Name="GreenPrimary">
+        <Background Type="CT_RAW" Source="FF359B35" />
+      </Color>
+      <Color Name="GreenPrimaryAlt">
+        <Background Type="CT_RAW" Source="FF54B054" />
+      </Color>
+      <Color Name="GreenQuaternary">
+        <Background Type="CT_RAW" Source="66359B35" />
+      </Color>
+      <Color Name="GreenQuinary">
+        <Background Type="CT_RAW" Source="33359B35" />
+      </Color>
+      <Color Name="GreenSecondary">
+        <Background Type="CT_RAW" Source="CC359B35" />
+      </Color>
+      <Color Name="GreenSenary">
+        <Background Type="CT_RAW" Source="1F359B35" />
+      </Color>
+      <Color Name="GreenTertiary">
+        <Background Type="CT_RAW" Source="99359B35" />
+      </Color>
+      <Color Name="GreyPrimary">
+        <Background Type="CT_RAW" Source="FF515151" />
+      </Color>
+      <Color Name="GreyPrimaryAlt">
+        <Background Type="CT_RAW" Source="FF888888" />
+      </Color>
+      <Color Name="GreyQuaternary">
+        <Background Type="CT_RAW" Source="66515151" />
+      </Color>
+      <Color Name="GreyQuinary">
+        <Background Type="CT_RAW" Source="33515151" />
+      </Color>
+      <Color Name="GreySecondary">
+        <Background Type="CT_RAW" Source="CC515151" />
+      </Color>
+      <Color Name="GreySenary">
+        <Background Type="CT_RAW" Source="1F515151" />
+      </Color>
+      <Color Name="GreyTertiary">
+        <Background Type="CT_RAW" Source="99515151" />
+      </Color>
+      <Color Name="LavenderPrimary">
+        <Background Type="CT_RAW" Source="FF9183EE" />
+      </Color>
+      <Color Name="LavenderPrimaryAlt">
+        <Background Type="CT_RAW" Source="FFD2CCF8" />
+      </Color>
+      <Color Name="LavenderQuaternary">
+        <Background Type="CT_RAW" Source="669183EE" />
+      </Color>
+      <Color Name="LavenderQuinary">
+        <Background Type="CT_RAW" Source="339183EE" />
+      </Color>
+      <Color Name="LavenderSecondary">
+        <Background Type="CT_RAW" Source="CC9183EE" />
+      </Color>
+      <Color Name="LavenderSenary">
+        <Background Type="CT_RAW" Source="1F9183EE" />
+      </Color>
+      <Color Name="LavenderTertiary">
+        <Background Type="CT_RAW" Source="999183EE" />
+      </Color>
+      <Color Name="LightBluePrimary">
+        <Background Type="CT_RAW" Source="FF65ADE5" />
+      </Color>
+      <Color Name="LightBluePrimaryAlt">
+        <Background Type="CT_RAW" Source="FF83BDEB" />
+      </Color>
+      <Color Name="LightBlueQuaternary">
+        <Background Type="CT_RAW" Source="6665AEE6" />
+      </Color>
+      <Color Name="LightBlueQuinary">
+        <Background Type="CT_RAW" Source="3365AEE6" />
+      </Color>
+      <Color Name="LightBlueSecondary">
+        <Background Type="CT_RAW" Source="CC65AEE6" />
+      </Color>
+      <Color Name="LightBlueSenary">
+        <Background Type="CT_RAW" Source="1F65AEE6" />
+      </Color>
+      <Color Name="LightBlueTertiary">
+        <Background Type="CT_RAW" Source="9965AEE6" />
+      </Color>
+      <Color Name="NeutralPrimary">
+        <Background Type="CT_RAW" Source="FFCCCCCC" />
+      </Color>
+      <Color Name="NeutralPrimaryAlt">
+        <Background Type="CT_RAW" Source="FF808080" />
+      </Color>
+      <Color Name="NeutralQuaternary">
+        <Background Type="CT_RAW" Source="66C3C3C3" />
+      </Color>
+      <Color Name="NeutralQuinary">
+        <Background Type="CT_RAW" Source="33C3C3C3" />
+      </Color>
+      <Color Name="NeutralSecondary">
+        <Background Type="CT_RAW" Source="CCC3C3C3" />
+      </Color>
+      <Color Name="NeutralSenary">
+        <Background Type="CT_RAW" Source="1FC3C3C3" />
+      </Color>
+      <Color Name="NeutralSeptenary">
+        <Background Type="CT_RAW" Source="85FFFFFF" />
+      </Color>
+      <Color Name="NeutralTertiary">
+        <Background Type="CT_RAW" Source="99C3C3C3" />
+      </Color>
+      <Color Name="OrangePrimary">
+        <Background Type="CT_RAW" Source="FFF98845" />
+      </Color>
+      <Color Name="OrangePrimaryAlt">
+        <Background Type="CT_RAW" Source="FFFAA06B" />
+      </Color>
+      <Color Name="OrangeQuaternary">
+        <Background Type="CT_RAW" Source="66F98845" />
+      </Color>
+      <Color Name="OrangeQuinary">
+        <Background Type="CT_RAW" Source="33F98845" />
+      </Color>
+      <Color Name="OrangeSecondary">
+        <Background Type="CT_RAW" Source="CCF98845" />
+      </Color>
+      <Color Name="OrangeSenary">
+        <Background Type="CT_RAW" Source="1FF98845" />
+      </Color>
+      <Color Name="OrangeTertiary">
+        <Background Type="CT_RAW" Source="99F98845" />
+      </Color>
+      <Color Name="PinkPrimary">
+        <Background Type="CT_RAW" Source="FFE750B0" />
+      </Color>
+      <Color Name="PinkPrimaryAlt">
+        <Background Type="CT_RAW" Source="FFEA66BA" />
+      </Color>
+      <Color Name="PinkQuaternary">
+        <Background Type="CT_RAW" Source="66E750B0" />
+      </Color>
+      <Color Name="PinkQuinary">
+        <Background Type="CT_RAW" Source="33E750B0" />
+      </Color>
+      <Color Name="PinkSecondary">
+        <Background Type="CT_RAW" Source="CCE750B0" />
+      </Color>
+      <Color Name="PinkSenary">
+        <Background Type="CT_RAW" Source="1FE750B0" />
+      </Color>
+      <Color Name="PinkTertiary">
+        <Background Type="CT_RAW" Source="99E750B0" />
+      </Color>
+      <Color Name="PurplePrimary">
+        <Background Type="CT_RAW" Source="FF9470BD" />
+      </Color>
+      <Color Name="PurplePrimaryAlt">
+        <Background Type="CT_RAW" Source="FFC6B1DE" />
+      </Color>
+      <Color Name="PurpleQuaternary">
+        <Background Type="CT_RAW" Source="669470BD" />
+      </Color>
+      <Color Name="PurpleQuinary">
+        <Background Type="CT_RAW" Source="339470BD" />
+      </Color>
+      <Color Name="PurpleSecondary">
+        <Background Type="CT_RAW" Source="CC9470BD" />
+      </Color>
+      <Color Name="PurpleSenary">
+        <Background Type="CT_RAW" Source="1F9470BD" />
+      </Color>
+      <Color Name="PurpleTertiary">
+        <Background Type="CT_RAW" Source="999470BD" />
+      </Color>
+      <Color Name="RedPrimary">
+        <Background Type="CT_RAW" Source="FFD33F4C" />
+      </Color>
+      <Color Name="RedPrimaryAlt">
+        <Background Type="CT_RAW" Source="FFDC626D" />
+      </Color>
+      <Color Name="RedQuaternary">
+        <Background Type="CT_RAW" Source="66D33F4C" />
+      </Color>
+      <Color Name="RedQuinary">
+        <Background Type="CT_RAW" Source="33D33F4C" />
+      </Color>
+      <Color Name="RedSecondary">
+        <Background Type="CT_RAW" Source="CCD33F4C" />
+      </Color>
+      <Color Name="RedSenary">
+        <Background Type="CT_RAW" Source="1FD33F4C" />
+      </Color>
+      <Color Name="RedTertiary">
+        <Background Type="CT_RAW" Source="99D33F4C" />
+      </Color>
+      <Color Name="TealPrimary">
+        <Background Type="CT_RAW" Source="FF2AA0A4" />
+      </Color>
+      <Color Name="TealPrimaryAlt">
+        <Background Type="CT_RAW" Source="FF4CB4B7" />
+      </Color>
+      <Color Name="TealQuaternary">
+        <Background Type="CT_RAW" Source="662AA0A4" />
+      </Color>
+      <Color Name="TealQuinary">
+        <Background Type="CT_RAW" Source="332AA0A4" />
+      </Color>
+      <Color Name="TealSecondary">
+        <Background Type="CT_RAW" Source="CC2AA0A4" />
+      </Color>
+      <Color Name="TealSenary">
+        <Background Type="CT_RAW" Source="1F2AA0A4" />
+      </Color>
+      <Color Name="TealTertiary">
+        <Background Type="CT_RAW" Source="992AA0A4" />
+      </Color>
+      <Color Name="YellowPrimary">
+        <Background Type="CT_RAW" Source="FFEFB839" />
+      </Color>
+      <Color Name="YellowPrimaryAlt">
+        <Background Type="CT_RAW" Source="FFF2C661" />
+      </Color>
+      <Color Name="YellowQuaternary">
+        <Background Type="CT_RAW" Source="66EFB939" />
+      </Color>
+      <Color Name="YellowQuinary">
+        <Background Type="CT_RAW" Source="33EFB939" />
+      </Color>
+      <Color Name="YellowSecondary">
+        <Background Type="CT_RAW" Source="CCEFB939" />
+      </Color>
+      <Color Name="YellowSenary">
+        <Background Type="CT_RAW" Source="1FEFB939" />
+      </Color>
+      <Color Name="YellowTertiary">
+        <Background Type="CT_RAW" Source="99EFB939" />
       </Color>
     </Category>
   </Theme>
